@@ -566,11 +566,39 @@ button a {
     max-height: 100%
 }
 
+@media (max-width: 768px) {
+    #About {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding: 8vh 8vw;
+    }
+
+    #About .left {
+        padding-bottom: 4rem;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        padding-right: 0rem;
+    }
+
+    #About .right {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    }
+}
+
 /*About*/
 
 /*Testimonials*/
 #Testimonials {
     padding: 8vh 20vw;
+}
+
+@media (max-width: 768px) {
+    #Testimonials {
+        padding: 8vh 8vw;
+    }
 }
 
 /*Testimonials*/
