@@ -21,6 +21,35 @@
 */
 
 
+
+/*Font*/
+
+@font-face {
+    font-family: CircularStd Black;
+    src: url('../Assets/Fonts/CircularStd-Black.otf');
+}
+
+@font-face {
+    font-family: CircularStd Bold;
+    src: url('../Assets/Fonts/CircularStd-Bold.otf');
+}
+
+
+@font-face {
+    font-family: CircularStd Medium;
+    src: url('../Assets/Fonts/CircularStd-Medium.otf');
+}
+
+
+@font-face {
+    font-family: CircularStd Book;
+    src: url('../Assets/Fonts/CircularStd-Book.otf');
+}
+
+
+/*Font*/
+
+
 *::-moz-selection {
     opacity: 1;
     color: #fffffe;
@@ -119,7 +148,7 @@ html.sr .load-hidden {
 
 
 .Logo a {
-    font-family: 'Muli', sans-serif;
+    font-family: 'CircularStd Book', sans-serif;
     font-size: 2rem;
     font-style: normal;
     /*    font-weight: 700;*/
@@ -135,7 +164,7 @@ html.sr .load-hidden {
 
 
 .Top-Bar .Menu span {
-    font-family: 'Muli', sans-serif;
+    font-family: 'CircularStd Book', sans-serif;
     /*    font-size: 2rem;*/
     font-style: normal;
     /*    font-weight: 700;*/
@@ -207,7 +236,7 @@ nav ul li {
 
 
 nav ul li a {
-    font-family: 'Muli', sans-serif;
+    font-family: 'CircularStd Book', sans-serif;
     font-size: 2rem;
     font-style: normal;
     /*    font-weight: 700;*/
@@ -288,7 +317,7 @@ nav ul li a:active {
 /*Headings*/
 
 h1 {
-    font-family: 'Muli', sans-serif;
+    font-family: 'CircularStd Black', sans-serif;
     font-size: 6rem;
     /*    font-weight: 400;*/
     font-style: normal;
@@ -317,7 +346,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Muli', sans-serif;
+    font-family: 'CircularStd Black', sans-serif;
     font-size: 4rem;
     /*    font-weight: 400;*/
     font-style: normal;
@@ -336,7 +365,7 @@ h2 {
 
 /*Paragraphs*/
 p {
-    font-family: 'Muli', sans-serif;
+    font-family: 'CircularStd Book', sans-serif;
     font-size: 2rem;
     /*    font-weight: 400;*/
     line-height: 3rem;
@@ -379,7 +408,7 @@ button {
 
 
 button a {
-    font-family: 'Muli', sans-serif;
+    font-family: 'CircularStd Book', sans-serif;
     font-size: 2rem;
     font-style: normal;
     /*    font-weight: 700;*/
@@ -413,6 +442,7 @@ button a {
 }
 
 /*Buttons*/
+
 
 /*Header*/
 #header {
@@ -456,7 +486,7 @@ button a {
 }
 
 #header .Container p {
-    /*    max-width: 88%;*/
+    max-width: 60%;
 
     color: #e5e4e2;
 }
@@ -539,7 +569,7 @@ button a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 8vh 20vw;
+    padding: 16vh 20vw;
 }
 
 #About .left {

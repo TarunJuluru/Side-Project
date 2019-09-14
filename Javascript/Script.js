@@ -68,23 +68,6 @@ $(document).ready(function () {
     //        prevScrollpos = currentScrollPos;
     //    };
 
-    //scroll to top animation on click
-    $backToTop.on("click", function () {
-        $("html, body").stop().animate({
-            scrollTop: 0
-        }, 1600);
-        return false;
-    });
-
-
-    //smooth scrolling onClick nav links
-    $scrollButton.find("a").on("click", function (event) {
-        event.preventDefault();
-        var section = $(this).attr("href");
-        $("html, body").animate({
-            scrollTop: $(section).offset().top - 64
-        }, "slow");
-    });
 
     //    ScrollReveal().reveal('.punchline', {
     //        delay: 2000
