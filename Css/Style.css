@@ -120,6 +120,10 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+img {
+    mix-blend-mode: luminosity;
+}
+
 /*
 a:hover {
     cursor: pointer;
@@ -496,6 +500,8 @@ button a {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    mix-blend-mode: luminosity;
+    background-blend-mode: luminosity;
 }
 
 
@@ -598,7 +604,7 @@ button a {
 /*About*/
 
 
-#About {
+#India, #Abroad {
     background-color: #000000;
     width: 100vw;
     display: -webkit-box;
@@ -607,32 +613,52 @@ button a {
     padding: 16vh 20vw;
 }
 
-#About .left {
+
+#India {
+/*    background-color:  #212121;    */
+}
+
+#Abroad {
+    flex-direction: row-reverse;
+    background-color: #101010;
+}
+
+#India .left,
+#Abroad .left{
     -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
     padding-right: 8rem;
 }
 
-#About .left p {
+#India .left p,
+#Abroad .left p{
     color: #fffffe;
 }
 
-#About .right {
+#India .right,
+#Abroad .right{
     -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
 }
 
-#About .right .Image-Container {
+#Abroad .left {
+    padding-left: 8rem;
+}
+
+#India .right .Image-Container,
+#Abroad .right .Image-Container{
     max-width: 100%;
 }
 
-#About .right .Image-Container img {
+#India .right .Image-Container img,
+#Abroad .right .Image-Container img{
     max-width: 100%;
     max-height: 100%
 }
 
 @media (max-width: 768px) {
-    #About {
+    #India,
+    #Abroad{
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -640,14 +666,24 @@ button a {
         padding: 12vh 8vw;
     }
 
-    #About .left {
+    #India .left,
+    #Abroad .left{
         padding-bottom: 4rem;
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
         padding-right: 0rem;
     }
+    
+    #Abroad {
+/*        flex-direction: column-reverse;*/
+    }
+    
+    #Abroad .left {
+        padding-left: 0rem;
+    }
 
-    #About .right {
+    #India .right,
+    #Abroad .right{
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     }
