@@ -49,6 +49,36 @@
 
 /*Font*/
 
+/*Text Animation*/
+/*Text Animation*/
+.cd-headline.loading-bar span {
+  display: inline-block;
+  padding: 0;
+}
+
+.cd-headline.loading-bar .cd-words-wrapper::after {
+  /* loading bar */
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background: #fffffe;
+  z-index: 2;
+  -webkit-transition: width 0.3s -0.1s;
+  -moz-transition: width 0.3s -0.1s;
+  transition: width 0.3s -0.1s;
+}
+.cd-headline.loading-bar .cd-words-wrapper.is-loading::after {
+  width: 100%;
+  -webkit-transition: width 2s;
+  -moz-transition: width 2s;
+  transition: width 2s;
+}
+
+/*Text Animation*/
+
 
 *::-moz-selection {
     opacity: 1;
@@ -90,6 +120,7 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+/*
 a:hover {
     cursor: pointer;
     -webkit-transition: all .4s ease;
@@ -97,6 +128,7 @@ a:hover {
 
     opacity: .4;
 }
+*/
 
 .Logo a:hover {
     opacity: 1;
@@ -324,7 +356,7 @@ h1 {
     font-stretch: normal;
     line-height: 5rem;
     /*    padding-top: 2rem;*/
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
     text-align: left;
     text-transform: uppercase;
     word-wrap: break-word;
@@ -353,7 +385,7 @@ h2 {
     font-stretch: normal;
     line-height: 4rem;
     /*    padding-top: 2rem;*/
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
     text-align: left;
     text-transform: uppercase;
     word-wrap: break-word;
@@ -469,9 +501,8 @@ button a {
 
 #header .Container {
     z-index: 4;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 24vh 20vw;
+    min-width: 100vw;
+    padding: 40vh 20vw 24vh;
 }
 
 #header .Container h3 {
@@ -546,7 +577,7 @@ button a {
     #header .Container {
         max-width: 100%;
         margin: 0 auto;
-        padding: 12vh 8vw;
+        padding: 40vh 8vw 12rem;
     }
 
     #header .Container h3 {
@@ -602,7 +633,7 @@ button a {
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-        padding: 8vh 8vw;
+        padding: 12vh 8vw;
     }
 
     #About .left {
@@ -627,7 +658,7 @@ button a {
 
 @media (max-width: 768px) {
     #Testimonials {
-        padding: 8vh 8vw;
+        padding: 12vh 8vw;
     }
 }
 
