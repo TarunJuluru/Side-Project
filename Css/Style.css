@@ -72,9 +72,9 @@
 }
 .cd-headline.loading-bar .cd-words-wrapper.is-loading::after {
   width: 100%;
-  -webkit-transition: width 2s;
-  -moz-transition: width 2s;
-  transition: width 2s;
+  -webkit-transition: width 6s;
+  -moz-transition: width 6s;
+  transition: width 6s;
 }
 
 /*Text Animation*/
@@ -505,13 +505,17 @@ button a {
     padding: 40vh 20vw 24vh;
 }
 
-#header .Container h3 {
+#header .Container .underline {
+    border-bottom: 2px solid #fffffe;
+}
+
+#header .Container h1 {
     padding-bottom: 4rem;
     color: #fffffe;
 }
 
 @media (max-width: 480px) {
-    #header .Container h3 {
+    #header .Container h1 {
         width: 88%;
     }
 }
