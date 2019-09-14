@@ -48,7 +48,6 @@ $(document).ready(function () {
         });
     }
 
-
     //    window.onload = function () {
     //        $("#1080p").on("load", function () {
     //            $("videoBackground").getElementById("720p");

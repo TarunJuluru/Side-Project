@@ -12,7 +12,6 @@
         }
         gtag('js', new Date());
         gtag('config', 'UA-119871513-1');
-
     </script>
     <!-- Google-site-verification -->
     <meta name="google-site-verification" content="bGxzp3d9bCmRGAu4dEuFuUkrsrLh2L3J7olwq0MOBCk" />
@@ -32,7 +31,6 @@
                 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
             f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-NW2TJL5');
-
     </script>
     <!-- Google Tag Manager -->
     <!--    PWA-->
@@ -55,11 +53,15 @@
     <!-- Favicon -->
     <!-- External CSS -->
     <link rel="stylesheet" href="Css/Text-Animation.css" type="text/css" media="all">
+    <link rel="stylesheet" href="Css/Testimonial.css" type="text/css" media="all">
     <link rel="stylesheet" href="Css/Style.css" type="text/css" media="all">
     <!-- External CSS -->
     <!-- External Javascript -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="Javascript/Text-Animation.js"></script>
+    <script src="Javascript/jquery.flexslider-min.js"></script>
+    <script src="Javascript/masonry.pkgd.min.js"></script>
+    <script src="Javascript/Testimonial.js"></script>
     <script src="Javascript/Script.js"></script>
     <!-- External Javascript -->
 </head>
@@ -125,10 +127,32 @@
         </div>
     </section>
 
-
     <section id="Testimonials">
-        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae explicabo culpa voluptatem, labore neque atque mollitia. Ipsam explicabo sit, illum vero, expedita nam neque ipsa ducimus deleniti amet distinctio delectus."</p>
+        <div class="cd-testimonials-wrapper cd-container">
+            <ul class="cd-testimonials">
+                <li>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="cd-author">
+                        <img src="Assets/Testimonial-1.jpg" alt="Author image">
+                        <ul class="cd-author-info">
+                            <li>MyName</li>
+                            <li>CEO, AmberCreative</li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li>
+                    <!-- ... -->
+                </li>
+
+                <li>
+                    <!-- ... -->
+                </li>
+            </ul> <!-- cd-testimonials -->
+        </div> <!-- cd-testimonials-wrapper -->
     </section>
+
+
     <!--    Footer-->
     <section id="footer">
         <div class="Container">
@@ -143,6 +167,4 @@
         </div>
     </section>
     <!--    Footer-->
-</body>
-
-</html>
+</body></html>

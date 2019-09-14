@@ -52,29 +52,30 @@
 /*Text Animation*/
 /*Text Animation*/
 .cd-headline.loading-bar span {
-  display: inline-block;
-  padding: 0;
+    display: inline-block;
+    padding: 0;
 }
 
 .cd-headline.loading-bar .cd-words-wrapper::after {
-  /* loading bar */
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 2px;
-  width: 0;
-  background: #fffffe;
-  z-index: 2;
-  -webkit-transition: width 0.3s -0.1s;
-  -moz-transition: width 0.3s -0.1s;
-  transition: width 0.3s -0.1s;
+    /* loading bar */
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background: #fffffe;
+    z-index: 2;
+    -webkit-transition: width 0.3s -0.1s;
+    -moz-transition: width 0.3s -0.1s;
+    transition: width 0.3s -0.1s;
 }
+
 .cd-headline.loading-bar .cd-words-wrapper.is-loading::after {
-  width: 100%;
-  -webkit-transition: width 6s;
-  -moz-transition: width 6s;
-  transition: width 6s;
+    width: 100%;
+    -webkit-transition: width 6s;
+    -moz-transition: width 6s;
+    transition: width 6s;
 }
 
 /*Text Animation*/
@@ -604,7 +605,8 @@ button a {
 /*About*/
 
 
-#India, #Abroad {
+#India,
+#Abroad {
     background-color: #000000;
     width: 100vw;
     display: -webkit-box;
@@ -615,7 +617,7 @@ button a {
 
 
 #India {
-/*    background-color:  #212121;    */
+    /*    background-color:  #212121;    */
 }
 
 #Abroad {
@@ -624,19 +626,19 @@ button a {
 }
 
 #India .left,
-#Abroad .left{
+#Abroad .left {
     -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
     padding-right: 8rem;
 }
 
 #India .left p,
-#Abroad .left p{
+#Abroad .left p {
     color: #fffffe;
 }
 
 #India .right,
-#Abroad .right{
+#Abroad .right {
     -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
 }
@@ -646,19 +648,20 @@ button a {
 }
 
 #India .right .Image-Container,
-#Abroad .right .Image-Container{
+#Abroad .right .Image-Container {
     max-width: 100%;
 }
 
 #India .right .Image-Container img,
-#Abroad .right .Image-Container img{
+#Abroad .right .Image-Container img {
     max-width: 100%;
     max-height: 100%
 }
 
 @media (max-width: 768px) {
+
     #India,
-    #Abroad{
+    #Abroad {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -667,23 +670,23 @@ button a {
     }
 
     #India .left,
-    #Abroad .left{
+    #Abroad .left {
         padding-bottom: 4rem;
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
         padding-right: 0rem;
     }
-    
+
     #Abroad {
-/*        flex-direction: column-reverse;*/
+        /*        flex-direction: column-reverse;*/
     }
-    
+
     #Abroad .left {
         padding-left: 0rem;
     }
 
     #India .right,
-    #Abroad .right{
+    #Abroad .right {
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     }
@@ -695,6 +698,21 @@ button a {
 #Testimonials {
     padding: 8vh 20vw;
 }
+
+/*Slider*/
+.cd-testimonials p {
+    color: #fffffe;
+    font-family: 'CircularStd Book', sans-serif;
+    font-size: 2rem;
+    /*    font-weight: 400;*/
+    line-height: 3rem;
+    /*    letter-spacing: .04rem;*/
+    padding-bottom: 4rem;
+    /*    opacity: .8;*/
+    /*    -webkit-text-stroke: .04rem #000000;*/
+}
+
+/*Slider*/
 
 @media (max-width: 768px) {
     #Testimonials {
