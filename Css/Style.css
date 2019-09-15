@@ -64,15 +64,15 @@
 
 *::-moz-selection {
     opacity: 1;
-    color: #E0E7EE;
-    background-color: #0A59F8;
+    color: #FFFFFE;
+    background-color: #000000;
 }
 
 
 *::selection {
     opacity: 1;
-    color: #E0E7EE;
-    background-color: #0A59F8;
+    color: #FFFFFE;
+    background-color: #000000;
 }
 
 ul {
@@ -94,7 +94,7 @@ body {
 
     margin: 0 auto;
 
-    background-color: #E0E7EE;
+    background-color: #FFFFFE;
     /*    overflow: hidden;*/
 }
 
@@ -173,7 +173,7 @@ html.sr .load-hidden {
     font-style: normal;
     /*    font-weight: 700;*/
     font-stretch: normal;
-    color: #E0E7EE;
+    color: #FFFFFE;
     text-align: left;
     text-decoration: none;
     /*    letter-spacing: .04rem;*/
@@ -194,7 +194,7 @@ html.sr .load-hidden {
     /*    letter-spacing: .2rem;*/
     text-transform: uppercase;
 
-    color: #0A59F8;
+    color: #000000;
     display: none;
 }
 
@@ -216,9 +216,9 @@ html.sr .load-hidden {
         min-width: 100vw;
         height: auto;
         /*        padding-left: 8vw;*/
-        /*        border-bottom: .2rem solid #0A59F8;*/
+        /*        border-bottom: .2rem solid #000000;*/
         border-right: none;
-        /*        background-color: #E0E7EE;*/
+        /*        background-color: #FFFFFE;*/
     }
 
 
@@ -266,7 +266,7 @@ nav ul li a {
     letter-spacing: .2rem;
     text-transform: capitalize;
 
-    color: #E0E7EE;
+    color: #FFFFFE;
 }
 
 @media (max-width: 1024px) {
@@ -285,7 +285,7 @@ nav ul li a {
         -webkit-transition: all .4s ease;
         transition: all .4s ease;
 
-        background-color: #E0E7EE;
+        background-color: #FFFFFE;
         /*    border-top: .2rem solid transparent;*/
     }
 
@@ -314,7 +314,7 @@ nav ul li a {
 
     nav ul li a {
         padding-left: 2rem;
-        color: #0A59F8;
+        color: #000000;
     }
 }
 
@@ -323,7 +323,7 @@ nav ul li a:hover {
     /*    margin-left: .8rem;*/
     -webkit-transition: all .4s ease;
     transition: all .4s ease;
-    /*    color: #E0E7EE;*/
+    /*    color: #FFFFFE;*/
     opacity: .4;
 }
 
@@ -348,7 +348,7 @@ h1 {
     text-align: left;
     text-transform: uppercase;
     word-wrap: break-word;
-    color: #E0E7EE;
+    color: #FFFFFE;
 }
 
 h2 {
@@ -363,7 +363,7 @@ h2 {
     text-align: left;
     text-transform: uppercase;
     word-wrap: break-word;
-    color: #E0E7EE;
+    color: #FFFFFE;
 }
 
 @media (max-width: 480px) {
@@ -386,7 +386,7 @@ p {
     padding-bottom: 4rem;
     color: #212121;
     /*    opacity: .8;*/
-    /*    -webkit-text-stroke: .04rem #0A59F8;*/
+    /*    -webkit-text-stroke: .04rem #000000;*/
 }
 
 @media (max-width: 1440px) {
@@ -415,8 +415,8 @@ button {
     /*    padding: 2rem 4rem;*/
     border: none;
     border-radius: 0rem;
-    padding: 1rem;
-    border: .2rem solid #E0E7EE;
+    padding: 2rem;
+    border: .2rem solid #FFFFFE;
     background-color: transparent;
 }
 
@@ -433,9 +433,9 @@ button a {
     text-transform: capitalize;
     /*    text-decoration: underline;*/
     /*    padding-bottom: .8rem;*/
-    color: #E0E7EE;
+    color: #FFFFFE;
     /*
-    border-bottom: .2rem solid #0A59F8;
+    border-bottom: .2rem solid #000000;
     padding-bottom: 2rem;
 */
 }
@@ -504,7 +504,7 @@ button a {
     bottom: 0;
     height: 2px;
     width: 0;
-    background: #E0E7EE;
+    background: #FFFFFE;
     z-index: 2;
     -webkit-transition: width 0.3s -0.1s;
     -moz-transition: width 0.3s -0.1s;
@@ -522,13 +522,13 @@ button a {
 
 /*
 #header .Container .underline {
-    border-bottom: 2px solid #E0E7EE;
+    border-bottom: 2px solid #FFFFFE;
 }
 */
 
 #header .Container h1 {
     padding-bottom: 4rem;
-    color: #E0E7EE;
+    color: #FFFFFE;
 }
 
 #header .Container h1 span {
@@ -544,17 +544,17 @@ button a {
 }
 
 #header .Container p {
-    max-width: 40%;
+    max-width: 50%;
 
-    color: #E0E7EE;
+    color: #FFFFFE;
 }
 
 #header .Container button {
-    border-bottom-color: #E0E7EE;
+    border-bottom-color: #FFFFFE;
 }
 
 #header .Container button a {
-    color: #E0E7EE;
+    color: #FFFFFE;
 }
 
 
@@ -623,7 +623,7 @@ button a {
 
 #India,
 #Abroad {
-    background-color: #0A59F8;
+    background-color: #000000;
     width: 100vw;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -650,7 +650,7 @@ button a {
 
 #India .left p,
 #Abroad .left p {
-    color: #E0E7EE;
+    color: #FFFFFE;
 }
 
 #India .right,
@@ -719,7 +719,7 @@ button a {
 
 .cd-testimonials-wrapper {
     padding: 8rem;
-    background-color: #E0E7EE;
+    background-color: #FFFFFE;
 }
 
 .cd-testimonials-wrapper::after {
@@ -735,24 +735,24 @@ button a {
     /*    letter-spacing: .04rem;*/
     padding-bottom: 4rem;
     /*    opacity: .8;*/
-    /*    -webkit-text-stroke: .04rem #0A59F8;*/
+    /*    -webkit-text-stroke: .04rem #000000;*/
 }
 
 .cd-testimonials ul li a {
-    color: #0A59F8;
+    color: #000000;
 }
 
 .flex-direction-nav li a:hover::before,
 .flex-direction-nav li a:hover::after {
-    background-color: #0A59F8;
+    background-color: #000000;
 }
 
 .cd-author img {
     border: none;
-    border-radius: 1rem;
+    border-radius: 50%;
     box-shadow: unset;
-    width: 8rem;
-    height: 8rem;
+    width: 12rem;
+    height: 12rem;
 }
 
 .cd-author .cd-author-info li:first-child,
@@ -796,7 +796,7 @@ button a {
     width: 100vw;
     margin-bottom: 0;
     /*    height: 100vh;*/
-    background-color: #0A59F8;
+    background-color: #000000;
 }
 
 #footer .Container {
@@ -806,10 +806,10 @@ button a {
     max-width: 100%;
     margin: 0 auto;
     padding: 2rem 8rem;
-    background-color: #0A59F8;
+    background-color: #000000;
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
-    /*    border-top: .02rem solid #E0E7EE;*/
+    /*    border-top: .02rem solid #FFFFFE;*/
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
@@ -831,13 +831,13 @@ button a {
     margin: 0rem;
     padding: 0rem;
 
-    color: #E0E7EE;
+    color: #FFFFFE;
 }
 
 #footer .Container a {
     text-align: right;
 
-    color: #E0E7EE;
+    color: #FFFFFE;
 
     -ms-flex-item-align: center;
     align-self: center;
