@@ -572,7 +572,7 @@ button a {
 }
 
 #Header .Container p {
-    max-width: 60%;
+    font-size: 3rem;
 }
 
 #Header .Container button {
@@ -670,7 +670,7 @@ button a {
     margin: 0 auto;
     color: #e5e4e2;
     text-align: center;
-    width: 50%;
+    width: 70%;
 }
 
 @media (max-width: 768px) {
