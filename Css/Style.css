@@ -147,7 +147,7 @@ html.sr .load-hidden {
     display: flex;
 
     min-width: 100vw;
-    min-height: 8rem;
+    min-height: 12rem;
     padding: 0rem 20vw;
 
     background-color: transparent;
@@ -168,7 +168,7 @@ html.sr .load-hidden {
 
 
 .Logo a {
-    font-family: 'Apercu Pro Bold', sans-serif;
+    font-family: 'Apercu Pro Regular', sans-serif;
     font-size: 2rem;
     font-style: normal;
     /*    font-weight: 700;*/
@@ -184,7 +184,7 @@ html.sr .load-hidden {
 
 
 .Top-Bar .Menu span {
-    font-family: 'Apercu Pro Bold', sans-serif;
+    font-family: 'Apercu Pro Regular', sans-serif;
     /*    font-size: 2rem;*/
     font-style: normal;
     /*    font-weight: 700;*/
@@ -235,11 +235,11 @@ nav {
     /*    width: 60vw;*/
     margin-right: 20vw;
     background-color: transparent;
-    min-height: 8rem;
+    min-height: 12rem;
 }
 
 nav ul {
-    height: 8rem;
+    height: 12rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -256,7 +256,7 @@ nav ul li {
 
 
 nav ul li a {
-    font-family: 'Apercu Pro Bold', sans-serif;
+    font-family: 'Apercu Pro Regular', sans-serif;
     font-size: 2rem;
     font-style: normal;
     /*    font-weight: 700;*/
@@ -338,11 +338,11 @@ nav ul li a:active {
 
 h1 {
     font-family: 'Apercu Pro Black', sans-serif;
-    font-size: 6rem;
+    font-size: 8rem;
     /*    font-weight: 400;*/
     font-style: normal;
     font-stretch: normal;
-    line-height: 5rem;
+    line-height: 7rem;
     /*    padding-top: 2rem;*/
     padding-bottom: 4rem;
     text-align: left;
@@ -367,11 +367,11 @@ h1 {
 
 h2 {
     font-family: 'Apercu Pro Black', sans-serif;
-    font-size: 4rem;
+    font-size: 6rem;
     /*    font-weight: 400;*/
     font-style: normal;
     font-stretch: normal;
-    line-height: 4rem;
+    line-height: 5rem;
     /*    padding-top: 2rem;*/
     padding-bottom: 4rem;
     text-align: left;
@@ -536,6 +536,11 @@ button a {
 #header .Container h1 {
     padding-bottom: 4rem;
     color: #E0E7EE;
+}
+
+#header .Container h1 span {
+    font-size: 8rem;
+    padding: 0rem;
 }
 
 @media (max-width: 480px) {
@@ -719,7 +724,7 @@ button a {
 /*Slider*/
 
 .cd-testimonials-wrapper {
-    padding: 4rem;
+    padding: 8rem;
     background-color: #E0E7EE;
 }
 
@@ -780,6 +785,10 @@ button a {
 @media (max-width: 768px) {
     #Testimonials {
         padding: 12vh 0vw;
+    }
+
+    .cd-testimonials-wrapper {
+        padding: 4rem;
     }
 }
 
