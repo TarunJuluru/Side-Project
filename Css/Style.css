@@ -366,6 +366,13 @@ h2 {
     color: #E0E7EE;
 }
 
+@media (max-width: 480px) {
+    h2 {
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+}
+
 
 /*Headings*/
 
