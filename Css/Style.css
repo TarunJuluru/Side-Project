@@ -158,7 +158,7 @@ html.sr .load-hidden {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    /*    background-color: rgba(0, 0, 0, .6);*/
+    background-color: rgba(0, 0, 0, .6);
 }
 
 @media (max-width: 1024px) {
@@ -181,6 +181,11 @@ html.sr .load-hidden {
     text-transform: capitalize;
     /*    text-decoration: underline;*/
     /*    padding-bottom: .8rem;*/
+}
+
+.Logo a img {
+    width: 3rem;
+    height: auto;
 }
 
 
@@ -378,7 +383,7 @@ h2 {
     text-align: left;
     text-transform: uppercase;
     word-wrap: break-word;
-    color: #FFFFFE;
+    color: #000000;
 }
 
 @media (max-width: 480px) {
@@ -398,7 +403,7 @@ p {
     /*    font-weight: 400;*/
     line-height: 3rem;
     /*    letter-spacing: .04rem;*/
-    padding-bottom: 4rem;
+    padding-bottom: 6rem;
     color: #e5e4e2;
     /*    opacity: .8;*/
     /*    -webkit-text-stroke: .04rem #000000;*/
@@ -481,7 +486,7 @@ button a {
     display: -ms-flexbox;
     display: flex;
     width: 100vw;
-    height: calc(100vh - 12rem);
+    height: calc(100vh - 8rem);
     background-color: rgba(0, 0, 0, 0.6);
     background-image: url(../Assets/Primary.jpg);
     background-repeat: no-repeat;
@@ -509,7 +514,7 @@ button a {
     top: 0;
     left: 0;
     width: 100vw;
-    height: calc(100vh - 12rem);
+    height: calc(100vh - 8rem);
     background-color: rgba(0, 0, 0, .6);
 
 }
@@ -561,13 +566,6 @@ button a {
     color: #FFFFFE;
 }
 
-@media (max-width: 480px) {
-    #Header .Container h1 span {
-        font-size: 4rem;
-        line-height: 5rem
-    }
-}
-
 #Header .Container p {
     max-width: 50%;
 }
@@ -594,12 +592,12 @@ button a {
         -ms-flex-direction: column;
     }
 
-    #Header .Container .Left {
+    #Header .Container .Content {
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     }
 
-    #Header .Container .Right {
+    #Header .Container .Graphic {
         padding-left: 0;
 
         -ms-flex-preferred-size: 88%;
@@ -624,14 +622,16 @@ button a {
 }
 
 @media (max-width: 480px) {
+
     #Header .Container {
         max-width: 100%;
         margin: 0 auto;
-        padding: 40vh 8vw 12rem;
+        padding: 40vh 8vw 8rem;
     }
 
-    #Header .Container h3 {
-        margin-top: 0rem;
+    #Header .Container h1 span {
+        font-size: 4rem;
+        line-height: 5rem
     }
 
     #Header .Container p {
@@ -640,6 +640,32 @@ button a {
 }
 
 /*Header*/
+
+/*Mission*/
+
+#Mission {
+    background-color: #000000;
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 16vh 20vw;
+}
+
+#Mission h2 {
+    width: 40%;
+    color: #FFFFFE;
+}
+
+
+#Mission p {
+    width: 60%;
+    color: #e5e4e2;
+    padding-left: 2%;
+}
+
+
+/*Mission*/
 
 /*About*/
 
@@ -664,53 +690,53 @@ button a {
     background-color: #101010;
 }
 
-#India .left,
-#Abroad .left {
+#India .Content,
+#Abroad .Content {
     -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
     padding-right: 8rem;
 }
 
-#India .left p,
-#Abroad .left p {
+#India .Content p,
+#Abroad .Content p {
     color: #FFFFFE;
 }
 
-#India .left h2 {
-    color: #000000;
+#Abroad .Content h2 {
+    color: #FFFFFE;
 }
 
-#India .left p {
+#India .Content p {
     color: #212121;
 }
 
-#India .left button {
+#India .Content button {
     border-color: #000000;
 }
 
-#India .left button a {
+#India .Content button a {
     color: #000000;
 }
 
-#India .right,
-#Abroad .right {
+#India .Graphic,
+#Abroad .Graphic {
     -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
 }
 
-#Abroad .left {
+#India .Content {
     padding-left: 8rem;
 }
 
-#India .right .Image-Container,
-#Abroad .right .Image-Container {
+#India .Graphic .Image-Container,
+#Abroad .Graphic .Image-Container {
     max-width: 100%;
 }
 
-#India .right .Image-Container img,
-#Abroad .right .Image-Container img {
-    max-width: 100%;
-    max-height: 100%
+#India .Graphic .Image-Container img,
+#Abroad .Graphic .Image-Container img {
+    min-width: 100%;
+    min-height: 100%
 }
 
 @media (max-width: 768px) {
@@ -724,8 +750,8 @@ button a {
         padding: 12vh 8vw;
     }
 
-    #India .left,
-    #Abroad .left {
+    #India .Content,
+    #Abroad .Content {
         padding-bottom: 4rem;
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
@@ -736,12 +762,12 @@ button a {
         /*        flex-direction: column-reverse;*/
     }
 
-    #Abroad .left {
+    #India .Content {
         padding-left: 0rem;
     }
 
-    #India .right,
-    #Abroad .right {
+    #India .Graphic,
+    #Abroad .Graphic {
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     }
@@ -826,6 +852,97 @@ button a {
 }
 
 /*Testimonials*/
+
+/*Contact*/
+
+#Contact {
+    background-color: #212121;
+    width: 100vw;
+}
+
+#Contact .Container {
+    background-color: #212121;
+    width: 100vw;
+    padding: 16vh 20vw;
+}
+
+#Contact .Container h2 {
+    color: #FFFFFE;
+}
+
+
+#Contact .Container form {
+    margin-top: 4rem;
+}
+
+#Contact .Container form button {
+    margin-top: 4rem;
+    cursor: pointer;
+}
+
+
+#Contact .Container form .Form-Row .Form-Group input {
+    font-family: 'Apercu Pro Medium', sans-serif;
+    font-size: 2rem;
+
+    width: 100%;
+    letter-spacing: .04rem;
+
+    color: #212121;
+    border: none;
+
+    background-color: #fffffe;
+    padding: 2rem 2rem;
+    margin-bottom: 2rem;
+}
+
+#Contact .Container form .Form-Row .Form-Group input::-webkit-input-placeholder {
+    opacity: .8;
+}
+
+#Contact .Container form .Form-Row .Form-Group input:-ms-input-placeholder {
+    opacity: .8;
+}
+
+#Contact .Container form .Form-Row .Form-Group input::placeholder {
+    opacity: .8;
+}
+
+#Contact .Container form .Form-Row .Form-Group textarea {
+    font-family: 'Apercu Pro Medium', sans-serif;
+    font-size: 2rem;
+
+    width: 100%;
+
+    letter-spacing: .04rem;
+
+    color: #212121;
+    border: none;
+
+    background-color: #fffffe;
+    padding: 2rem 2rem;
+}
+
+#Contact .Container form .Form-Row .Form-Group textarea::-webkit-input-placeholder {
+    opacity: .8;
+}
+
+#Contact .Container form .Form-Row .Form-Group textarea:-ms-input-placeholder {
+    opacity: .8;
+}
+
+#Contact .Container form .Form-Row .Form-Group textarea::placeholder {
+    opacity: .8;
+}
+
+@media (max-width: 768px) {
+    #Contact .Container {
+        padding: 12vh 8vw;
+    }
+}
+
+/*Contact*/
+
 
 /*Footer*/
 #Footer {

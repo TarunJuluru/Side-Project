@@ -71,7 +71,7 @@
 <body id="customCursor">
     <!--   navigation-->
     <div class="Top-Bar">
-        <div class="Logo"><a href="Index.html">logo</a></div>
+        <div class="Logo"><a href="Index.html"><img src="Assets/Logo/Logo.svg" alt=""></a></div>
         <div class="Menu" id="openNav">
             <span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20 20" fill="none" stroke="#FFFFFE" stroke-width="2" stroke-linecap="square" stroke-linejoin="arcs">
@@ -95,40 +95,44 @@
                 <span>Looking for</span>
                 <br>
                 <span class="cd-words-wrapper">
-                    <b class="is-visible">career guidance</b>
-                    <b>Abroad Education</b>
-                    <b>other parameter</b>
+                    <b class="is-visible">Career counseling</b>
+                    <b>University selection</b>
+                    <b>Visa processing</b>
                 </span>
             </h1>
-            <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
-            <button><a href="mailto:?Subject=Please specify your Subject." target="_blank">contact us</a></button>
+            <p>Talent has no limits. We optimize human potential, increase happiness and our key focus is to provide excellent services and guidance for the students</p>
+            <button id="scrollButton"><a href="#Contact" target="_blank">contact us</a></button>
         </div>
         <div class="Header-Overlay"></div>
     </header>
     <!--     Header-->
+    <section id="Mission">
+        <h2>Our Mission</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis soluta officia laudantium, consequuntur modi libero odit autem veritatis porro unde est et, esse dolore explicabo velit mollitia culpa voluptatum error. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio blanditiis quod consequuntur dignissimos obcaecati vitae explicabo temporibus ut placeat dolores ad possimus incidunt ducimus quas, eveniet impedit architecto, expedita cum.</p>
+    </section>
     <section id="India">
-        <div class="left">
-            <h2>Study in India</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae explicabo culpa voluptatem, labore neque atque mollitia. Ipsam explicabo sit, illum vero, expedita nam neque ipsa ducimus deleniti amet distinctio delectus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci praesentium explicabo perferendis, voluptas alias nisi rerum sunt magni quo vel maxime molestias exercitationem cupiditate magnam officiis itaque quae? Eligendi, dolores.</p>
-            <button><a href="#" target="_blank">Learn More</a></button>
-        </div>
-        <div class="right">
+        <div class="Graphic">
             <div class="Image-Container">
                 <img src="Assets/India.jpg" alt="About">
             </div>
         </div>
-    </section>
-
-    <section id="Abroad">
-        <div class="left">
-            <h2>Study in Abroad</h2>
+        <div class="Content">
+            <h2>Study in India</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae explicabo culpa voluptatem, labore neque atque mollitia. Ipsam explicabo sit, illum vero, expedita nam neque ipsa ducimus deleniti amet distinctio delectus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci praesentium explicabo perferendis, voluptas alias nisi rerum sunt magni quo vel maxime molestias exercitationem cupiditate magnam officiis itaque quae? Eligendi, dolores.</p>
             <button><a href="#" target="_blank">Learn More</a></button>
         </div>
-        <div class="right">
+
+    </section>
+    <section id="Abroad">
+        <div class="Graphic">
             <div class="Image-Container">
                 <img src="Assets/Abroad.jpg" alt="About">
             </div>
+        </div>
+        <div class="Content">
+            <h2>Study Abroad</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae explicabo culpa voluptatem, labore neque atque mollitia. Ipsam explicabo sit, illum vero, expedita nam neque ipsa ducimus deleniti amet distinctio delectus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci praesentium explicabo perferendis, voluptas alias nisi rerum sunt magni quo vel maxime molestias exercitationem cupiditate magnam officiis itaque quae? Eligendi, dolores.</p>
+            <button><a href="#" target="_blank">Learn More</a></button>
         </div>
     </section>
 
@@ -167,6 +171,31 @@
                 </li>
             </ul> <!-- cd-testimonials -->
         </div> <!-- cd-testimonials-wrapper -->
+    </section>
+    <section id="Contact">
+        <div class="Container">
+            <h2>Contact Us</h2>
+            <form name="contact" method="post" netlify>
+                <div class="Form-Row">
+                    <div class="Form-Group">
+                        <input type="text" required class="form-control highlights" id="fullname" name="fullname" placeholder="Full Name*">
+                    </div>
+                    <div class="Form-Group">
+                        <input type="email" required class="form-control highlights" id="email" name="email" placeholder="Email*">
+                    </div>
+                    <div class="Form-Group">
+                        <input type="number" class="form-control highlights" id="mobile-no" name="mobile-no" placeholder="Mobile No">
+                    </div>
+                    <div class="Form-Group">
+                        <input type="text" required class="form-control highlights" id="subject" name="subject" placeholder="Subject* [General Enquiry, Hiring Process, Freelancing, Friendly Reach Out]">
+                    </div>
+                    <div class="Form-Group">
+                        <textarea class="form-control highlights" rows="8" name="message" id="message" placeholder="Message"></textarea>
+                    </div>
+                </div>
+                <button type="submit"><a>send</a></button>
+            </form>
+        </div>
     </section>
 
 
