@@ -403,7 +403,7 @@ p {
     /*    font-weight: 400;*/
     line-height: 3rem;
     /*    letter-spacing: .04rem;*/
-    padding-bottom: 6rem;
+    padding-bottom: 4rem;
     color: #e5e4e2;
     /*    opacity: .8;*/
     /*    -webkit-text-stroke: .04rem #000000;*/
@@ -440,6 +440,13 @@ button {
     background-color: transparent;
 }
 
+/*
+button:hover {
+    border: .2rem solid #FFFFFE;
+    background-color: #000000;
+}
+*/
+
 
 button a {
     font-family: 'Apercu Pro Bold', sans-serif;
@@ -454,10 +461,10 @@ button a {
     /*    text-decoration: underline;*/
     /*    padding-bottom: .8rem;*/
     color: #FFFFFE;
-    /*
-    border-bottom: .2rem solid #000000;
-    padding-bottom: 2rem;
-*/
+
+    /*    border-bottom: .2rem solid #FFFFFE;*/
+    /*    padding-bottom: .6rem;*/
+
 }
 
 @media (max-width: 1440px) {
@@ -576,6 +583,7 @@ button a {
 }
 
 #Header .Container button {
+    margin-top: 2rem;
     border-bottom-color: #FFFFFE;
 }
 
@@ -713,22 +721,26 @@ button a {
 
 #Service-1 .Content,
 #Service-2 .Content {
-    -ms-flex-preferred-size: 50%;
-    flex-basis: 50%;
+    -ms-flex-preferred-size: 60%;
+    flex-basis: 60%;
     padding-right: 8rem;
 }
 
 #Service-1 .Content p,
 #Service-2 .Content p {
-    color: #FFFFFE;
+    color: #212121;
+}
+
+#Service-2 .Content p {
+    margin-bottom: 1rem;
 }
 
 #Service-2 .Content h2 {
     color: #FFFFFE;
 }
 
-#Service-1 .Content p {
-    color: #212121;
+#Service-2 .Content p {
+    color: #FFFFFE;
 }
 
 #Service-1 .Content button {
@@ -741,8 +753,8 @@ button a {
 
 #Service-1 .Graphic,
 #Service-2 .Graphic {
-    -ms-flex-preferred-size: 50%;
-    flex-basis: 50%;
+    -ms-flex-preferred-size: 40%;
+    flex-basis: 40%;
 }
 
 #Service-1 .Content {
