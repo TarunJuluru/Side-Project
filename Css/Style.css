@@ -566,8 +566,13 @@ button a {
     color: #FFFFFE;
 }
 
+#Header .Container h1 span.Small {
+    font-size: 5rem;
+    opacity: .6;
+}
+
 #Header .Container p {
-    max-width: 50%;
+    max-width: 60%;
 }
 
 #Header .Container button {
@@ -634,6 +639,11 @@ button a {
         line-height: 5rem
     }
 
+    #Header .Container h1 span.Small {
+        font-size: 3rem;
+        opacity: .6;
+    }
+
     #Header .Container p {
         max-width: 96%;
     }
@@ -670,8 +680,8 @@ button a {
 /*About*/
 
 
-#India,
-#Abroad {
+#Service-1,
+#Service-2 {
     background-color: #FFFFFE;
     width: 100vw;
     display: -webkit-box;
@@ -681,68 +691,68 @@ button a {
 }
 
 
-#India {
+#Service-1 {
     /*    background-color:  #212121;    */
 }
 
-#Abroad {
+#Service-2 {
     flex-direction: row-reverse;
     background-color: #101010;
 }
 
-#India .Content,
-#Abroad .Content {
+#Service-1 .Content,
+#Service-2 .Content {
     -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
     padding-right: 8rem;
 }
 
-#India .Content p,
-#Abroad .Content p {
+#Service-1 .Content p,
+#Service-2 .Content p {
     color: #FFFFFE;
 }
 
-#Abroad .Content h2 {
+#Service-2 .Content h2 {
     color: #FFFFFE;
 }
 
-#India .Content p {
+#Service-1 .Content p {
     color: #212121;
 }
 
-#India .Content button {
+#Service-1 .Content button {
     border-color: #000000;
 }
 
-#India .Content button a {
+#Service-1 .Content button a {
     color: #000000;
 }
 
-#India .Graphic,
-#Abroad .Graphic {
+#Service-1 .Graphic,
+#Service-2 .Graphic {
     -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
 }
 
-#India .Content {
+#Service-1 .Content {
     padding-left: 8rem;
 }
 
-#India .Graphic .Image-Container,
-#Abroad .Graphic .Image-Container {
+#Service-1 .Graphic .Image-Container,
+#Service-2 .Graphic .Image-Container {
     max-width: 100%;
 }
 
-#India .Graphic .Image-Container img,
-#Abroad .Graphic .Image-Container img {
+#Service-1 .Graphic .Image-Container img,
+#Service-2 .Graphic .Image-Container img {
     min-width: 100%;
     min-height: 100%
 }
 
 @media (max-width: 768px) {
 
-    #India,
-    #Abroad {
+    #Service-1,
+    #Service-2 {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -750,24 +760,24 @@ button a {
         padding: 12vh 8vw;
     }
 
-    #India .Content,
-    #Abroad .Content {
+    #Service-1 .Content,
+    #Service-2 .Content {
         padding-bottom: 4rem;
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
         padding-right: 0rem;
     }
 
-    #Abroad {
+    #Service-2 {
         /*        flex-direction: column-reverse;*/
     }
 
-    #India .Content {
+    #Service-1 .Content {
         padding-left: 0rem;
     }
 
-    #India .Graphic,
-    #Abroad .Graphic {
+    #Service-1 .Graphic,
+    #Service-2 .Graphic {
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     }
@@ -818,6 +828,7 @@ button a {
     box-shadow: unset;
     width: 12rem;
     height: 12rem;
+    margin-right: 2rem;
 }
 
 .cd-author .cd-author-info li:first-child,
