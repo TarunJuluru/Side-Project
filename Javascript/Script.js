@@ -48,14 +48,26 @@ $(document).ready(function () {
         });
     }
 
-    //    window.onload = function () {
-    //        $("#1080p").on("load", function () {
-    //            $("videoBackground").getElementById("720p");
-    //        });
-    //    };
+
+    //scroll to top animation on click
+    $backToTop.on("click", function () {
+        $("html, body").stop().animate({
+            scrollTop: 0
+        }, 1600);
+        return false;
+    });
 
 
-    //     Hide-Show nav on scroll position
+    //smooth scrolling onClick nav links
+    $scrollButton.find("a").on("click", function (event) {
+        event.preventDefault();
+        var section = $(this).attr("href");
+        $("html, body").animate({
+            scrollTop: $(section).offset().top - 64
+        }, "slow");
+    });
+
+    //    Hide - Show nav on scroll position
     //    var prevScrollpos = window.pageYOffset;
     //    window.onscroll = function () {
     //        var currentScrollPos = window.pageYOffset;
