@@ -656,7 +656,7 @@ button a {
 #Mission {
     background-color: #000000;
     width: 100vw;
-    padding: 16vh 20vw;
+    padding: 12vh 20vw;
 }
 
 #Mission h1 {
@@ -670,7 +670,7 @@ button a {
     margin: 0 auto;
     color: #e5e4e2;
     text-align: center;
-    width: 70%;
+    width: 88%;
 }
 
 @media (max-width: 768px) {
