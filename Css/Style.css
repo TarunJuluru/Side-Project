@@ -689,11 +689,10 @@ section {
 
 #Mission {
     background-color: #000000;
-    width: 80vw;
+    width: 100vw;
     padding: 10vh 20vw;
-    margin: 0vh 20vw;
+    /*    margin: 0vh 20vw;*/
     position: relative;
-    top: -4rem;
     margin: 0 auto;
 }
 
@@ -927,7 +926,7 @@ section {
     font-family: 'Circular Std Book', sans-serif;
     font-size: 2rem;
 
-    width: 80%;
+    width: 100%;
     letter-spacing: .04rem;
 
     color: #FFFFFE;
@@ -954,7 +953,7 @@ section {
     font-family: 'Apercu Pro Medium', sans-serif;
     font-size: 2rem;
 
-    width: 80%;
+    width: 100%;
 
     letter-spacing: .04rem;
 
