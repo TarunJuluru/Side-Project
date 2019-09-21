@@ -434,6 +434,7 @@ button {
     padding: 1.6rem;
     border: .2rem solid #FFFFFE;
     background-color: transparent;
+    border-radius: 1.6rem;
 }
 
 button:hover {
@@ -691,7 +692,8 @@ button a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 16vh 20vw;
+    flex-direction: column;
+    padding: 10vh 20vw;
 }
 
 
@@ -700,15 +702,15 @@ button a {
 }
 
 #Service-2 {
-    flex-direction: row-reverse;
+    /*    flex-direction: row-reverse;*/
     background-color: #111111;
 }
 
 #Service-1 .Content,
 #Service-2 .Content {
-    -ms-flex-preferred-size: 60%;
-    flex-basis: 60%;
-    padding-right: 8rem;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    margin-top: 8rem;
 }
 
 #Service-1 .Content p,
@@ -748,18 +750,13 @@ button a {
 
 #Service-1 .Graphic,
 #Service-2 .Graphic {
-    -ms-flex-preferred-size: 40%;
-    flex-basis: 40%;
-}
-
-#Service-1 .Content {
-    padding-left: 8rem;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
 }
 
 #Service-1 .Graphic .Image-Container,
 #Service-2 .Graphic .Image-Container {
     max-width: 100%;
-    margin-top: 16%;
 }
 
 #Service-1 .Graphic .Image-Container img,
@@ -789,12 +786,6 @@ button a {
 
     #Service-2 {
         /*        flex-direction: column-reverse;*/
-    }
-
-    #Service-1 .Graphic .Image-Container,
-    #Service-2 .Graphic .Image-Container {
-
-        margin-top: 0%;
     }
 
     #Service-1 .Content {
