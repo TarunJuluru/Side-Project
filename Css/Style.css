@@ -51,26 +51,34 @@
 /*Font*/
 
 /*Custom-Cursor*/
+/*
 #customCursor {
     cursor: url('../Assets/Cursor/cursor.svg');
 }
+*/
 
 /* With a .cur fallback */
+/*
 #customCursor {
     cursor: url('../Assets/Cursor/cursor.svg'),
         url('/images/chef.cur');
 }
+*/
 
 /* With a custom hotspot */
+/*
 #customCursor {
     cursor: url('../Assets/Cursor/cursor.svg') 10 12;
 }
+*/
 
 /* With a non-custom fallback: */
+/*
 #customCursor {
     cursor: url('../Assets/Cursor/cursor.svg'),
         move;
 }
+*/
 
 /*Custom-Cursor*/
 
@@ -402,7 +410,8 @@ h2 {
     text-align: left;
     text-transform: uppercase;
     word-wrap: break-word;
-    color: #000000;
+    color: #FFFFFE;
+    text-align: center;
 }
 
 @media (max-width: 480px) {
@@ -457,7 +466,7 @@ button {
     padding: 1.6rem;
     border: .2rem solid #FFFFFE;
     background-color: transparent;
-    border-radius: 1.6rem;
+    border-radius: 8rem;
 }
 
 button:hover {
@@ -673,8 +682,12 @@ button a {
 
 #Mission {
     background-color: #000000;
-    width: 100vw;
+    width: 80vw;
     padding: 10vh 20vw;
+    margin: 0vh 20vw;
+    position: relative;
+    top: -4rem;
+    margin: 0 auto;
 }
 
 #Mission h1 {
@@ -693,8 +706,11 @@ button a {
 
 @media (max-width: 768px) {
 
-    #Testimonials {
-        padding: 12vh 8vw;
+    #Mission {
+        top: 0rem;
+        width: 100vw;
+        margin: 0 auto;
+        padding: 12vh 12vw;
     }
 
     #Mission p {
@@ -711,12 +727,14 @@ button a {
 #Service-1,
 #Service-2 {
     background-color: #FFFFFE;
-    width: 100vw;
+    width: 80vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     flex-direction: column;
-    padding: 10vh 20vw;
+    padding: 10vh 0vw;
+    margin: 0vh 20vw;
+    margin: 0 auto;
 }
 
 
@@ -726,48 +744,21 @@ button a {
 
 #Service-2 {
     /*    flex-direction: row-reverse;*/
-    background-color: #111111;
+    /*    background-color: #111111;*/
 }
 
 #Service-1 .Content,
 #Service-2 .Content {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
-    margin-top: 8rem;
-}
-
-#Service-1 .Content p,
-#Service-2 .Content p {
-    color: #111111;
+    /*    margin-top: 8rem;*/
+    background-color: #000000;
+    padding: 10vh 20vw;
+    text-align: center;
 }
 
 #Service-2 .Content p {
     margin-bottom: 1rem;
-}
-
-#Service-2 .Content h2 {
-    color: #FFFFFE;
-}
-
-#Service-2 .Content p {
-    color: #FFFFFE;
-}
-
-#Service-1 .Content button {
-    border-color: #000000;
-}
-
-#Service-1 .Content button a {
-    color: #000000;
-}
-
-#Service-1 .Content button:hover {
-    background-color: #000000;
-    border-color: #FFFFFE;
-}
-
-#Service-1 .Content button:hover a {
-    color: #FFFFFE !important;
 }
 
 
@@ -792,28 +783,21 @@ button a {
 
     #Service-1,
     #Service-2 {
+        width: 100%;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-        padding: 12vh 8vw;
+        padding: 0vh 0vw;
     }
 
     #Service-1 .Content,
     #Service-2 .Content {
-        padding-top: 6rem;
+        padding: 6rem;
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
-        padding-right: 0rem;
     }
 
-    #Service-2 {
-        /*        flex-direction: column-reverse;*/
-    }
-
-    #Service-1 .Content {
-        padding-left: 0rem;
-    }
 
     #Service-1 .Graphic,
     #Service-2 .Graphic {
@@ -893,7 +877,7 @@ button a {
 
 @media (max-width: 768px) {
     #Testimonials {
-        padding: 12vh 0vw;
+        padding: 6vh 0vw;
     }
 
     .cd-testimonials-wrapper {
