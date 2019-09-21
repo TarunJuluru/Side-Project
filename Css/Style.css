@@ -431,20 +431,12 @@ button {
     /*    padding: 2rem 4rem;*/
     border: none;
     border-radius: 0rem;
-    padding: 2rem;
-    /*    border: .2rem solid #FFFFFE;*/
-    background-color: #000000;
+    padding-bottom: .6rem;
+    border-bottom: .2rem solid #000000;
+    background-color: transparent;
 }
 
-/*
 button:hover {
-    border: .2rem solid #FFFFFE;
-    background-color: #000000;
-}
-*/
-
-button:hover {
-    background-color: #FFFFFE;
     transition: all .6s ease;
 }
 
@@ -753,8 +745,12 @@ button a {
     border-color: #000000;
 }
 
+#Service-2 .Content button {
+    border-color: #FFFFFE;
+}
+
 #Service-1 .Content button a {
-    color: #FFFFFE;
+    color: #000000;
 }
 
 #Service-1 .Graphic,
@@ -918,6 +914,7 @@ button a {
 #Contact .Container form button {
     margin-top: 4rem;
     cursor: pointer;
+    border-color: #FFFFFE;
 }
 
 
