@@ -50,6 +50,29 @@
 
 /*Font*/
 
+/*Custom-Cursor*/
+#customCursor {
+    cursor: url('../Assets/Cursor/cursor.svg');
+}
+
+/* With a .cur fallback */
+#customCursor {
+    cursor: url('../Assets/Cursor/cursor.svg'),
+        url('/images/chef.cur');
+}
+
+/* With a custom hotspot */
+#customCursor {
+    cursor: url('../Assets/Cursor/cursor.svg') 10 12;
+}
+
+/* With a non-custom fallback: */
+#customCursor {
+    cursor: url('../Assets/Cursor/cursor.svg'),
+        move;
+}
+
+/*Custom-Cursor*/
 
 *::-moz-selection {
     opacity: 1;
