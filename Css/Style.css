@@ -203,7 +203,7 @@ html.sr .load-hidden {
 
 @media (max-width: 1024px) {
     .Top-Bar {
-        position: fixed;
+        position: absolute;
         z-index: 8;
         top: 0;
         left: 0;
@@ -280,7 +280,7 @@ a {
 
 @media (max-width: 1024px) {
     nav {
-        position: fixed;
+        position: absolute;
         z-index: 16;
         top: 0rem;
         right: 0;
@@ -431,15 +431,22 @@ button {
     /*    padding: 2rem 4rem;*/
     border: none;
     border-radius: 0rem;
-    padding-bottom: .6rem;
-    border-bottom: .2rem solid #000000;
+    padding: 1.6rem;
+    border: .2rem solid #FFFFFE;
     background-color: transparent;
 }
 
 button:hover {
     transition: all .6s ease;
+    background-color: #FFFFFE;
+    border: .2rem solid #000000 !important;
 }
 
+
+button:hover a {
+    transition: all .6s ease;
+    color: #000000 !important;
+}
 
 button a {
     font-family: 'Circular Std Bold', sans-serif;
@@ -725,13 +732,19 @@ button a {
     border-color: #000000;
 }
 
-#Service-2 .Content button {
-    border-color: #FFFFFE;
-}
-
 #Service-1 .Content button a {
     color: #000000;
 }
+
+#Service-1 .Content button:hover {
+    background-color: #000000;
+    border-color: #FFFFFE;
+}
+
+#Service-1 .Content button:hover a {
+    color: #FFFFFE !important;
+}
+
 
 #Service-1 .Graphic,
 #Service-2 .Graphic {
@@ -746,6 +759,7 @@ button a {
 #Service-1 .Graphic .Image-Container,
 #Service-2 .Graphic .Image-Container {
     max-width: 100%;
+    margin-top: 16%;
 }
 
 #Service-1 .Graphic .Image-Container img,
@@ -775,6 +789,12 @@ button a {
 
     #Service-2 {
         /*        flex-direction: column-reverse;*/
+    }
+
+    #Service-1 .Graphic .Image-Container,
+    #Service-2 .Graphic .Image-Container {
+
+        margin-top: 0%;
     }
 
     #Service-1 .Content {
