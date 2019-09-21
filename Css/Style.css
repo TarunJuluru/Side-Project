@@ -389,6 +389,7 @@ h1 {
     text-transform: uppercase;
     word-wrap: break-word;
     color: #FFFFFE;
+    text-align: center;
 }
 
 @media (max-width: 480px) {
@@ -525,6 +526,7 @@ button a {
     justify-content: center;
     /*    mix-blend-mode: luminosity;*/
     /*    background-blend-mode: luminosity;*/
+    text-align: center;
 }
 
 
