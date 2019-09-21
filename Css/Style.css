@@ -460,21 +460,6 @@ button a {
 
 }
 
-@media (max-width: 1440px) {
-    button a {
-        font-size: 2.2rem;
-        line-height: 3rem;
-    }
-}
-
-
-@media (max-width: 480px) {
-    button a {
-        font-size: 2rem;
-        line-height: 2.8rem;
-    }
-}
-
 /*Buttons*/
 
 
