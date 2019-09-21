@@ -440,11 +440,6 @@ button:hover {
     transition: all .6s ease;
 }
 
-button:hover a {
-    color: #000000 !important;
-    transition: all .6s ease;
-}
-
 
 button a {
     font-family: 'Circular Std Bold', sans-serif;
