@@ -468,6 +468,7 @@ button {
     border: .2rem solid #FFFFFE;
     background-color: transparent;
     border-radius: 8rem;
+    text-align: center;
 }
 
 button:hover {
@@ -503,6 +504,10 @@ button a {
 
 /*Buttons*/
 
+
+section {
+    text-align: center;
+}
 
 /*Header*/
 #Header {
@@ -922,7 +927,7 @@ button a {
     font-family: 'Circular Std Book', sans-serif;
     font-size: 2rem;
 
-    width: 100%;
+    width: 80%;
     letter-spacing: .04rem;
 
     color: #FFFFFE;
@@ -949,7 +954,7 @@ button a {
     font-family: 'Apercu Pro Medium', sans-serif;
     font-size: 2rem;
 
-    width: 100%;
+    width: 80%;
 
     letter-spacing: .04rem;
 
