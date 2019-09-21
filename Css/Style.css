@@ -22,42 +22,31 @@
 
 /*Font*/
 
-/*Apercu*/
-
 @font-face {
-    font-family: Apercu Pro Black;
+    font-family: Circular Std Black;
 
-    src: url('../Assets/Fonts/Apercu/apercu-black-pro.ttf');
+    src: url('../Assets/Fonts/CircularStd/CircularStd-Black.otf');
 }
 
 
 @font-face {
-    font-family: Apercu Pro Bold;
+    font-family: Circular Std Bold;
 
-    src: url('../Assets/Fonts/Apercu/apercu-bold-pro.ttf');
+    src: url('../Assets/Fonts/CircularStd/CircularStd-Bold.otf');
 }
 
 @font-face {
-    font-family: Apercu Pro Medium;
+    font-family: Circular Std Medium;
 
-    src: url('../Assets/Fonts/Apercu/apercu-medium-pro.ttf');
+    src: url('../Assets/Fonts//CircularStd/CircularStd-Medium.otf');
 }
 
 
 @font-face {
-    font-family: Apercu Pro Regular;
+    font-family: Circular Std Book;
 
-    src: url('../Assets/Fonts/Apercu/apercu-regular-pro.ttf');
+    src: url('../Assets/Fonts/CircularStd/CircularStd-Book.otf');
 }
-
-@font-face {
-    font-family: Apercu Pro Light;
-
-    src: url('../Assets/Fonts/Apercu/apercu-light-pro.ttf');
-}
-
-/*Apercu*/
-
 
 /*Font*/
 
@@ -169,7 +158,7 @@ html.sr .load-hidden {
 
 
 .Logo a {
-    font-family: 'Apercu Pro Regular', sans-serif;
+    font-family: 'Circular Std Bold', sans-serif;
     font-size: 2rem;
     font-style: normal;
     /*    font-weight: 700;*/
@@ -190,7 +179,7 @@ html.sr .load-hidden {
 
 
 .Top-Bar .Menu span {
-    font-family: 'Apercu Pro Regular', sans-serif;
+    font-family: 'Circular Std Bold', sans-serif;
     /*    font-size: 2rem;*/
     font-style: normal;
     /*    font-weight: 700;*/
@@ -262,7 +251,7 @@ nav ul li {
 
 
 nav ul li a {
-    font-family: 'Apercu Pro Regular', sans-serif;
+    font-family: 'Circular Std Book', sans-serif;
     font-size: 2rem;
     font-style: normal;
     /*    font-weight: 700;*/
@@ -276,7 +265,7 @@ nav ul li a {
 }
 
 a {
-    font-family: 'Apercu Pro Regular', sans-serif;
+    font-family: 'Circular Std Book', sans-serif;
     font-size: 2rem;
     font-style: normal;
     /*    font-weight: 700;*/
@@ -357,7 +346,7 @@ nav ul li a:active {
 /*Headings*/
 
 h1 {
-    font-family: 'Apercu Pro Black', sans-serif;
+    font-family: 'Circular Std Black', sans-serif;
     font-size: 8rem;
     /*    font-weight: 400;*/
     font-style: normal;
@@ -379,7 +368,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Apercu Pro Black', sans-serif;
+    font-family: 'Circular Std Black', sans-serif;
     font-size: 6rem;
     /*    font-weight: 400;*/
     font-style: normal;
@@ -405,7 +394,7 @@ h2 {
 
 /*Paragraphs*/
 p {
-    font-family: 'Apercu Pro Regular', sans-serif;
+    font-family: 'Circular Std Book', sans-serif;
     font-size: 2rem;
     /*    font-weight: 400;*/
     line-height: 3rem;
@@ -442,9 +431,9 @@ button {
     /*    padding: 2rem 4rem;*/
     border: none;
     border-radius: 0rem;
-    padding: 1.6rem;
-    border: .2rem solid #FFFFFE;
-    background-color: transparent;
+    padding: 2rem;
+    /*    border: .2rem solid #FFFFFE;*/
+    background-color: #000000;
 }
 
 /*
@@ -454,17 +443,27 @@ button:hover {
 }
 */
 
+button:hover {
+    background-color: #FFFFFE;
+    transition: all .6s ease;
+}
+
+button:hover a {
+    color: #000000 !important;
+    transition: all .6s ease;
+}
+
 
 button a {
-    font-family: 'Apercu Pro Bold', sans-serif;
-    font-size: 2rem;
+    font-family: 'Circular Std Bold', sans-serif;
+    font-size: 1.6rem;
     font-style: normal;
     /*    font-weight: 700;*/
     font-stretch: normal;
     text-align: left;
     text-decoration: none;
     /*    letter-spacing: .04rem;*/
-    text-transform: capitalize;
+    text-transform: uppercase;
     /*    text-decoration: underline;*/
     /*    padding-bottom: .8rem;*/
     color: #FFFFFE;
@@ -501,7 +500,7 @@ button a {
     display: flex;
     width: 100vw;
     height: calc(100vh - 8rem);
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.8);
     background-image: url(../Assets/Primary.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -755,7 +754,7 @@ button a {
 }
 
 #Service-1 .Content button a {
-    color: #000000;
+    color: #FFFFFE;
 }
 
 #Service-1 .Graphic,
@@ -833,7 +832,7 @@ button a {
 
 .cd-testimonials p {
     color: #212121;
-    font-family: 'Apercu Pro Medium', sans-serif;
+    font-family: 'Circular Std Medium', sans-serif;
     font-size: 2rem;
     /*    font-weight: 400;*/
     line-height: 3rem;
@@ -864,7 +863,7 @@ button a {
 .cd-author .cd-author-info li:first-child,
 .cd-author .cd-author-info li:last-child {
     color: #212121;
-    font-family: 'Apercu Pro Medium', sans-serif;
+    font-family: 'Circular Std Medium', sans-serif;
     font-size: 2rem;
     /*    font-weight: 400;*/
     line-height: 3rem;
@@ -923,16 +922,16 @@ button a {
 
 
 #Contact .Container form .Form-Row .Form-Group input {
-    font-family: 'Apercu Pro Medium', sans-serif;
+    font-family: 'Circular Std Book', sans-serif;
     font-size: 2rem;
 
     width: 100%;
     letter-spacing: .04rem;
 
-    color: #212121;
+    color: #FFFFFE;
     border: none;
 
-    background-color: #fffffe;
+    background-color: #000000;
     padding: 2rem 2rem;
     margin-bottom: 2rem;
 }
@@ -957,10 +956,10 @@ button a {
 
     letter-spacing: .04rem;
 
-    color: #212121;
+    color: #FFFFFE;
     border: none;
 
-    background-color: #fffffe;
+    background-color: #000000;
     padding: 2rem 2rem;
 }
 
