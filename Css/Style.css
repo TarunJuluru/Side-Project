@@ -389,13 +389,14 @@ h1 {
     text-transform: uppercase;
     word-wrap: break-word;
     color: #FFFFFE;
-    text-align: center;
+    /*    text-align: center;*/
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     h1 {
         font-size: 6rem;
         line-height: 6rem;
+        text-align: center;
     }
 }
 
@@ -412,13 +413,14 @@ h2 {
     text-transform: uppercase;
     word-wrap: break-word;
     color: #FFFFFE;
-    text-align: center;
+    /*    text-align: center;*/
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     h2 {
         font-size: 4rem;
         line-height: 5rem;
+        text-align: center;
     }
 }
 
@@ -446,10 +448,11 @@ p {
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     p {
         font-size: 2rem;
-        line-height: 2.8rem;
+        line-height: 2.6rem;
+        text-align: center;
     }
 }
 
@@ -504,10 +507,12 @@ button a {
 
 /*Buttons*/
 
-
-section {
-    text-align: center;
+@media (max-width: 768px) {
+    section {
+        text-align: center;
+    }
 }
+
 
 /*Header*/
 #Header {
@@ -531,7 +536,7 @@ section {
     justify-content: center;
     /*    mix-blend-mode: luminosity;*/
     /*    background-blend-mode: luminosity;*/
-    text-align: center;
+    /*    text-align: center;*/
 }
 
 
@@ -688,7 +693,7 @@ section {
 /*Mission*/
 
 #Mission {
-    background-color: #000000;
+    background-color: #FFFFFE;
     width: 100vw;
     padding: 10vh 20vw;
     /*    margin: 0vh 20vw;*/
@@ -698,14 +703,14 @@ section {
 
 #Mission h1 {
     margin: 0 auto;
-    color: #FFFFFE;
+    color: #111111;
     text-align: center;
 }
 
 
 #Mission p {
     margin: 0 auto;
-    color: #e5e4e2;
+    color: #111111;
     text-align: center;
     width: 88%;
 }
@@ -733,13 +738,13 @@ section {
 #Service-1,
 #Service-2 {
     background-color: #FFFFFE;
-    width: 80vw;
+    width: 100vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    padding: 10vh 0vw;
-    margin: 0vh 20vw;
+    /*    flex-direction: column;*/
+    /*    padding: 10vh 0vw;*/
+    /*    margin: 0vh 20vw;*/
     margin: 0 auto;
 }
 
@@ -749,7 +754,7 @@ section {
 }
 
 #Service-2 {
-    /*    flex-direction: row-reverse;*/
+    flex-direction: row-reverse;
     /*    background-color: #111111;*/
 }
 
@@ -759,8 +764,9 @@ section {
     flex-basis: 100%;
     /*    margin-top: 8rem;*/
     background-color: #000000;
-    padding: 10vh 20vw;
-    text-align: center;
+    padding: 10vh 8vw;
+    /*    text-align: center;*/
+    flex-basis: 50%;
 }
 
 #Service-2 .Content p {
@@ -770,8 +776,8 @@ section {
 
 #Service-1 .Graphic,
 #Service-2 .Graphic {
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
 }
 
 #Service-1 .Graphic .Image-Container,
@@ -1021,6 +1027,7 @@ section {
 
 #Footer .Container ul li {
     margin-right: 2rem;
+    text-align: left;
 }
 
 @media (max-width: 1024px) {
