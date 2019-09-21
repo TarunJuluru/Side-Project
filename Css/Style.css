@@ -126,7 +126,7 @@ html.sr .load-hidden {
 
 
 .Top-Bar {
-    position: fixed;
+    position: absolute;
     z-index: 16;
     top: 0;
     left: 0;
@@ -223,7 +223,7 @@ html.sr .load-hidden {
 }
 
 nav {
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     z-index: 80;
