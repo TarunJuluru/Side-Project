@@ -600,6 +600,73 @@ button a {
 
 /*Text Animation*/
 
+
+/*Search Bar*/
+input[type=search] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 2rem;
+    background-color: transparent;
+    border: none;
+    width: 2rem;
+    cursor: pointer;
+}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+    display: none;
+}
+
+
+input[type=search] {
+    background: #000000 url(../Assets/Icons/Search.svg) no-repeat .6rem center;
+    /*    border: solid .2rem #e5e4e2;*/
+    padding: 1.6rem;
+    /*    width: 2rem;*/
+    /*    border-radius: 8rem;*/
+
+    -webkit-transition: all .6s;
+    -moz-transition: all .6s;
+    transition: all .6s;
+}
+
+input[type=search]:focus {
+    width: 40rem;
+    background-color: transparent;
+    border-color: #FFFFFE;
+}
+
+
+input:-moz-placeholder {
+    color: #e5e4e2;
+}
+
+input::-webkit-input-placeholder {
+    color: #e5e4e2;
+}
+
+
+#Search input[type=search]:focus {
+    width: 40rem;
+    padding-left: 6rem;
+    color: #FFFFFE;
+    background-color: transparent;
+    cursor: auto;
+}
+
+#Search input:-moz-placeholder {
+    color: transparent;
+}
+
+#Search input::-webkit-input-placeholder {
+    color: transparent;
+}
+
+/*Search Bar*/
+
+
+
 /*
 #header .Container .underline {
     border-bottom: 2px solid #FFFFFE;

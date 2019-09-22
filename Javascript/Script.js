@@ -67,6 +67,8 @@ $(document).ready(function () {
         }, "slow");
     });
 
+
+
     //    Hide - Show nav on scroll position
     //    var prevScrollpos = window.pageYOffset;
     //    window.onscroll = function () {
