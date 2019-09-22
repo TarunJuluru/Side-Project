@@ -548,8 +548,8 @@ button a {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    mix-blend-mode: luminosity;
-    background-blend-mode: luminosity;
+    /*    mix-blend-mode: luminosity;*/
+    /*    background-blend-mode: luminosity;*/
     /*    text-align: center;*/
 }
 
