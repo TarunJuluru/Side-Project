@@ -778,7 +778,7 @@ button a {
 #Service-2 {
     flex-direction: row-reverse;
     /*    background-color: #111111;*/
-    margin-left: -8rem;
+    /*    margin-left: -8rem;*/
 }
 
 #Service-1 .Content,
@@ -790,20 +790,20 @@ button a {
     /*    padding: 0vh 8vw;*/
     /*    text-align: center;*/
     flex-basis: 50%;
-    background-color: #FFFFFE;
+    background-color: #e5e4e2;
 }
 
 #Service-1 .Content {
     position: relative;
-    padding: 6rem;
-    margin-left: -8rem;
+    padding: 6rem 0rem 0rem 6rem;
+    /*    margin-left: -8rem;*/
     z-index: 16;
 }
 
 #Service-2 .Content {
     position: relative;
-    padding: 6rem;
-    margin-right: -8rem;
+    padding: 6rem 6rem 0rem 0rem;
+    /*    margin-right: -8rem;*/
     z-index: 16;
 }
 
