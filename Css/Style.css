@@ -205,7 +205,7 @@ html.sr .load-hidden {
 }
 
 .Logo a img {
-    width: 3rem;
+    width: 6rem;
     height: auto;
 }
 
@@ -602,6 +602,7 @@ button a {
 
 
 /*Search Bar*/
+/*
 input[type=search] {
     -webkit-appearance: textfield;
     -webkit-box-sizing: content-box;
@@ -621,10 +622,7 @@ input::-webkit-search-cancel-button {
 
 input[type=search] {
     background: #000000 url(../Assets/Icons/Search.svg) no-repeat .6rem center;
-    /*    border: solid .2rem #e5e4e2;*/
     padding: 1.6rem;
-    /*    width: 2rem;*/
-    /*    border-radius: 8rem;*/
 
     -webkit-transition: all .6s;
     -moz-transition: all .6s;
@@ -661,7 +659,7 @@ input::-webkit-input-placeholder {
 
 #Search input::-webkit-input-placeholder {
     color: transparent;
-}
+}*/
 
 /*Search Bar*/
 
@@ -1083,13 +1081,24 @@ input::-webkit-input-placeholder {
     color: #FFFFFE;
 }
 
+#Contact .Container .Submit-Message {
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+#Contact .Container .Submit-Message p.Tag {
+    padding: 0rem;
+    opacity: .6rem
+}
+
 
 #Contact .Container form {
     margin-top: 4rem;
 }
 
 #Contact .Container form button {
-    margin-top: 4rem;
+    /*    margin-top: 4rem;*/
     cursor: pointer;
     border-color: #FFFFFE;
 }
@@ -1154,6 +1163,19 @@ input::-webkit-input-placeholder {
         padding: 12vh 8vw;
         text-align: center;
         margin: 0 auto;
+    }
+
+    #Contact .Container .Submit-Message {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    #Contact .Container .Submit-Message p.Tag {
+        width: 64%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 2rem;
     }
 }
 
