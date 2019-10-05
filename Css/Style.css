@@ -163,7 +163,7 @@ html.sr .load-hidden {
 
 
 .Logo a {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 2rem;
     font-style: normal;
     /*    font-weight: 700;*/
@@ -184,7 +184,7 @@ html.sr .load-hidden {
 
 
 .Top-Bar .Menu span {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     /*    font-size: 2rem;*/
     font-style: normal;
     /*    font-weight: 700;*/
@@ -256,7 +256,7 @@ nav ul li {
 
 
 nav ul li a {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 2rem;
     font-style: normal;
     /*    font-weight: 700;*/
@@ -266,11 +266,11 @@ nav ul li a {
     letter-spacing: 0rem;
     text-transform: capitalize;
 
-    color: #000000;
+    color: #FFFFFE;
 }
 
 a {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 2rem;
     font-style: normal;
     /*    font-weight: 700;*/
@@ -351,7 +351,7 @@ nav ul li a:active {
 /*Headings*/
 
 h1 {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 8rem;
     font-weight: 800;
     font-style: normal;
@@ -376,7 +376,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 6rem;
     font-weight: 800;
     font-style: normal;
@@ -405,7 +405,7 @@ h2 {
 
 /*Paragraphs*/
 p {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 2rem;
     font-weight: 400;
     line-height: 3rem;
@@ -465,7 +465,7 @@ button:hover a {
 }
 
 button a {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 1.6rem;
     font-style: normal;
     font-weight: 600;
@@ -580,7 +580,7 @@ button a {
 input[type=search] {
     -webkit-appearance: textfield;
     -webkit-box-sizing: content-box;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 2rem;
     background-color: transparent;
     border: none;
@@ -647,6 +647,7 @@ input::-webkit-input-placeholder {
 
 #Header .Container h1 {
     padding-bottom: 4rem;
+    color: #FFFFFE;
 }
 
 #Header .Container h1 span {
@@ -662,13 +663,31 @@ input::-webkit-input-placeholder {
 
 #Header .Container p {
     font-size: 3rem;
+    color: #e5e5e5;
 }
 
 #Header .Container p.Tag {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 1.6rem;
     /*    padding-left: 1rem;*/
     opacity: .6;
+    color: #e5e5e5;
+}
+
+#Header .Container button {
+    border: .2rem solid #ffffff;
+}
+
+#Header .Container button a {
+    color: #FFFFFE;
+}
+
+#Header .Container button:hover {
+    background-color: #FFFFFE;
+}
+
+#Header .Container button:hover a {
+    color: #000000 !important;
 }
 
 
@@ -966,7 +985,7 @@ input::-webkit-input-placeholder {
 
 .cd-testimonials p {
     color: #e5e5e5;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 2rem;
     /*    font-weight: 400;*/
     line-height: 3rem;
@@ -999,7 +1018,7 @@ input::-webkit-input-placeholder {
 .cd-author .cd-author-info li:first-child,
 .cd-author .cd-author-info li:last-child {
     color: #e5e5e5;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 2rem;
     /*    font-weight: 400;*/
     line-height: 3rem;
@@ -1091,7 +1110,7 @@ input::-webkit-input-placeholder {
 
 
 #Contact .Container form .Form-Row .Form-Group input {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 2rem;
 
     width: 100%;
@@ -1120,7 +1139,7 @@ input::-webkit-input-placeholder {
 }
 
 #Contact .Container form .Form-Row .Form-Group textarea {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 2rem;
 
     width: 100%;
@@ -1152,19 +1171,24 @@ input::-webkit-input-placeholder {
     #Contact .Container {
         padding: 12vh 8vw;
         text-align: left;
-
     }
 
     #Contact .Container .Submit-Message {
         display: flex;
         flex-direction: column;
+        align-content: flex-start;
         margin-top: 2rem;
+        text-align: left;
+    }
+
+    #Contact .Container .Submit-Message button {
+        align-self: flex-start;
     }
 
     #Contact .Container .Submit-Message p.Tag {
+        align-self: flex-start;
         width: 64%;
         text-align: left;
-
         margin-top: 2rem;
     }
 }
