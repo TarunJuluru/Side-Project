@@ -22,32 +22,6 @@
 
 /*Font*/
 
-@font-face {
-    font-family: Circular Std Black;
-
-    src: url('../Assets/Fonts/CircularStd/CircularStd-Black.otf');
-}
-
-
-@font-face {
-    font-family: Circular Std Bold;
-
-    src: url('../Assets/Fonts/CircularStd/CircularStd-Bold.otf');
-}
-
-@font-face {
-    font-family: Circular Std Medium;
-
-    src: url('../Assets/Fonts//CircularStd/CircularStd-Medium.otf');
-}
-
-
-@font-face {
-    font-family: Circular Std Book;
-
-    src: url('../Assets/Fonts/CircularStd/CircularStd-Book.otf');
-}
-
 /*Font*/
 
 /*Custom-Cursor*/
@@ -114,7 +88,7 @@ body {
 
     margin: 0 auto;
 
-    background-color: #e5e4e2;
+    background-color: #111111;
     overflow-x: hidden;
 }
 
@@ -122,12 +96,10 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-/*
 img {
     mix-blend-mode: luminosity;
     background-blend-mode: luminosity;
 }
-*/
 
 /*
 a:hover {
@@ -190,15 +162,15 @@ html.sr .load-hidden {
 
 
 .Logo a {
-    font-family: 'Circular Std Bold', sans-serif;
+    font-family: 'Be Vietnam', sans-serif;
     font-size: 2rem;
     font-style: normal;
     /*    font-weight: 700;*/
     font-stretch: normal;
-    color: #FFFFFE;
+    color: #000000;
     text-align: left;
     text-decoration: none;
-    /*    letter-spacing: .04rem;*/
+    /*    letter-spacing:  0rem;*/
     text-transform: capitalize;
     /*    text-decoration: underline;*/
     /*    padding-bottom: .8rem;*/
@@ -211,14 +183,14 @@ html.sr .load-hidden {
 
 
 .Top-Bar .Menu span {
-    font-family: 'Circular Std Bold', sans-serif;
+    font-family: 'Be Vietnam', sans-serif;
     /*    font-size: 2rem;*/
     font-style: normal;
     /*    font-weight: 700;*/
     font-stretch: normal;
 
     text-align: left;
-    /*    letter-spacing: .2rem;*/
+    /*    letter-spacing:  0rem;*/
     text-transform: uppercase;
 
     color: #000000;
@@ -283,28 +255,28 @@ nav ul li {
 
 
 nav ul li a {
-    font-family: 'Circular Std Book', sans-serif;
+    font-family: 'Be Vietnam', sans-serif;
     font-size: 2rem;
     font-style: normal;
     /*    font-weight: 700;*/
     font-stretch: normal;
 
     text-align: left;
-    letter-spacing: .2rem;
+    letter-spacing: 0rem;
     text-transform: capitalize;
 
-    color: #FFFFFE;
+    color: #000000;
 }
 
 a {
-    font-family: 'Circular Std Book', sans-serif;
+    font-family: 'Be Vietnam', sans-serif;
     font-size: 2rem;
     font-style: normal;
     /*    font-weight: 700;*/
     font-stretch: normal;
 
     text-align: left;
-    letter-spacing: .2rem;
+    letter-spacing: 0rem;
     text-transform: capitalize;
 
     color: #FFFFFE;
@@ -378,9 +350,9 @@ nav ul li a:active {
 /*Headings*/
 
 h1 {
-    font-family: 'Circular Std Black', sans-serif;
+    font-family: 'Big Shoulders Display', cursive;
     font-size: 8rem;
-    /*    font-weight: 400;*/
+    font-weight: 800;
     font-style: normal;
     font-stretch: normal;
     line-height: 7rem;
@@ -403,9 +375,9 @@ h1 {
 }
 
 h2 {
-    font-family: 'Circular Std Black', sans-serif;
+    font-family: 'Big Shoulders Display', cursive;
     font-size: 6rem;
-    /*    font-weight: 400;*/
+    font-weight: 800;
     font-style: normal;
     font-stretch: normal;
     line-height: 5rem;
@@ -432,13 +404,13 @@ h2 {
 
 /*Paragraphs*/
 p {
-    font-family: 'Circular Std Book', sans-serif;
+    font-family: 'Be Vietnam', sans-serif;
     font-size: 2rem;
-    /*    font-weight: 400;*/
+    font-weight: 400;
     line-height: 3rem;
-    /*    letter-spacing: .04rem;*/
+    /*    letter-spacing:  0rem;*/
     padding-bottom: 4rem;
-    color: #e5e4e2;
+    color: #111111;
     /*    opacity: .8;*/
     /*    -webkit-text-stroke: .04rem #000000;*/
 }
@@ -473,15 +445,15 @@ button {
     /*    padding: 2rem 4rem;*/
     border: none;
     border-radius: 0rem;
-    padding: 2rem;
-    border: .2rem solid #FFFFFE;
+    padding: 1.6rem;
+    border: .2rem solid #000000;
     background-color: transparent;
-    border-radius: 8rem;
+    border-radius: 1rem;
 }
 
 button:hover {
     transition: all .6s ease;
-    background-color: #FFFFFE;
+    background-color: #000000;
     /*    border: .2rem solid #000000 !important;*/
     cursor: pointer;
 }
@@ -489,22 +461,22 @@ button:hover {
 
 button:hover a {
     transition: all .6s ease;
-    color: #000000 !important;
+    color: #FFFFFE !important;
 }
 
 button a {
-    font-family: 'Circular Std Bold', sans-serif;
+    font-family: 'Be Vietnam', sans-serif;
     font-size: 1.6rem;
     font-style: normal;
-    /*    font-weight: 700;*/
+    font-weight: 800;
     font-stretch: normal;
     text-align: left;
     text-decoration: none;
-    /*    letter-spacing: .04rem;*/
+    /*    letter-spacing:  0rem;*/
     text-transform: uppercase;
     /*    text-decoration: underline;*/
     /*    padding-bottom: .8rem;*/
-    color: #FFFFFE;
+    color: #000000;
 
     /*    border-bottom: .2rem solid #FFFFFE;*/
     /*    padding-bottom: .6rem;*/
@@ -537,7 +509,7 @@ button a {
     display: flex;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.8);
+    /*    background-color: rgba(0, 0, 0, 0.8);*/
     background-image: url(../Assets/Primary.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -548,8 +520,8 @@ button a {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    /*    mix-blend-mode: luminosity;*/
-    /*    background-blend-mode: luminosity;*/
+    mix-blend-mode: luminosity;
+    background-blend-mode: luminosity;
     /*    text-align: center;*/
 }
 
@@ -560,6 +532,7 @@ button a {
     padding: 40vh 12vw 24vh;
 }
 
+/*
 #Header .Header-Overlay {
     position: absolute;
     top: 0;
@@ -569,6 +542,7 @@ button a {
     background-color: rgba(0, 0, 0, .6);
 
 }
+*/
 
 /*Text Animation*/
 .cd-headline.clip span {
@@ -606,7 +580,7 @@ button a {
 input[type=search] {
     -webkit-appearance: textfield;
     -webkit-box-sizing: content-box;
-    font-family: 'Circular Std Book', sans-serif;
+    font-family: 'Be Vietnam', sans-serif;
     font-size: 2rem;
     background-color: transparent;
     border: none;
@@ -637,11 +611,11 @@ input[type=search]:focus {
 
 
 input:-moz-placeholder {
-    color: #e5e4e2;
+    color: #111111;
 }
 
 input::-webkit-input-placeholder {
-    color: #e5e4e2;
+    color: #111111;
 }
 
 
@@ -673,39 +647,31 @@ input::-webkit-input-placeholder {
 
 #Header .Container h1 {
     padding-bottom: 4rem;
-    color: #FFFFFE;
+    color: #111111;
 }
 
 #Header .Container h1 span {
     font-size: 8rem;
     padding: 0rem;
-    color: #FFFFFE;
+    color: #111111;
 }
 
 #Header .Container h1 span.Small {
     font-size: 5rem;
-    opacity: .6;
+    /*    opacity: .6;*/
 }
 
 #Header .Container p {
     font-size: 3rem;
+    color: #111111;
 }
 
 #Header .Container p.Tag {
-    font-family: 'Circular Std Book', sans-serif;
+    font-family: 'Be Vietnam', sans-serif;
     font-size: 1.6rem;
-    color: #e5e4e2;
+    color: #111111;
     /*    padding-left: 1rem;*/
     opacity: .6;
-}
-
-#Header .Container button {
-    margin-top: 2rem;
-    border-bottom-color: #FFFFFE;
-}
-
-#Header .Container button a {
-    color: #FFFFFE;
 }
 
 
@@ -782,9 +748,22 @@ input::-webkit-input-placeholder {
 /*Mission*/
 
 #Mission {
-    background-color: #000000;
+    /*    background-color: #000000;*/
+    background-image: url(../Assets/About/Motto.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    mix-blend-mode: luminosity;
+    background-blend-mode: luminosity;
     width: 100vw;
-    padding: 10vh 24vw;
+    height: 100vh;
+    padding: 16vh 24vw;
     /*    margin: 0vh 20vw;*/
     position: relative;
     margin: 0 auto;
@@ -792,14 +771,14 @@ input::-webkit-input-placeholder {
 
 #Mission h1 {
     margin: 0 auto;
-    color: #FFFFFE;
+    color: #111111;
     text-align: center;
 }
 
 
 #Mission p {
     margin: 0 auto;
-    color: #e5e4e2;
+    color: #111111;
     text-align: center;
     width: 88%;
 }
@@ -826,21 +805,22 @@ input::-webkit-input-placeholder {
 
 #Service-1,
 #Service-2 {
-    background-color: #e5e4e2;
+    background-color: #FFFFFE;
     width: 100vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     /*    flex-direction: column;*/
-    padding: 12vh 12vw;
     align-items: center;
 }
 
 #Service-1 {
+    padding: 20vh 12vw 0vh;
     /*    background-color:  #111111;    */
 }
 
 #Service-2 {
+    padding: 20vh 12vw;
     flex-direction: row-reverse;
     /*    background-color: #111111;*/
     /*    margin-left: -8rem;*/
@@ -851,11 +831,10 @@ input::-webkit-input-placeholder {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
     /*    margin-top: 8rem;*/
-    background-color: #e5e4e2;
+    background-color: #FFFFFE;
     /*    padding: 0vh 8vw;*/
     /*    text-align: center;*/
     flex-basis: 50%;
-    background-color: #e5e4e2;
 }
 
 #Service-1 .Content {
@@ -884,24 +863,13 @@ input::-webkit-input-placeholder {
     width: 88%;
 }
 
-#Service-1 .Content button,
-#Service-2 .Content button {
-    border-color: #000000;
-}
 
-#Service-1 .Content button a,
-#Service-2 .Content button a {
+#Service-1 .Content p a,
+#Service-2 .Content p a {
     color: #000000;
-}
-
-#Service-1 .Content button:hover,
-#Service-2 .Content button:hover {
-    background-color: #000000;
-}
-
-#Service-1 .Content button:hover a,
-#Service-2 .Content button:hover a {
-    color: #FFFFFE !important;
+    padding-left: .6rem;
+    text-decoration: underline;
+    letter-spacing: 0rem;
 }
 
 #Service-1 .Graphic,
@@ -919,8 +887,8 @@ input::-webkit-input-placeholder {
 #Service-2 .Graphic .Image-Container img {
     min-width: 100%;
     min-height: 100%;
-    mix-blend-mode: luminosity;
-    background-blend-mode: luminosity;
+    /*    mix-blend-mode: luminosity;*/
+    /*    background-blend-mode: luminosity;*/
 }
 
 @media (max-width: 768px) {
@@ -932,9 +900,17 @@ input::-webkit-input-placeholder {
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-        padding: 0vh 0vw;
         text-align: center;
         margin: 0 auto;
+    }
+
+    #Service-1 {
+        padding: 12vh 0vw 0vh;
+    }
+
+    #Service-2 {
+        margin-left: 0rem;
+        padding: 12vh 0vw;
     }
 
     #Service-1 .Content,
@@ -949,10 +925,6 @@ input::-webkit-input-placeholder {
     #Service-2 .Graphic {
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
-    }
-
-    #Service-2 {
-        margin-left: 0rem;
     }
 
     #Service-1 .Content {
@@ -975,14 +947,14 @@ input::-webkit-input-placeholder {
 /*Testimonials*/
 #Testimonials {
     padding: 8vh 24vw;
-    background-color: #111111;
+    background-color: #e5e5e5;
 }
 
 /*Slider*/
 
 .cd-testimonials-wrapper {
     padding: 8rem;
-    background-color: #111111;
+    background-color: #e5e5e5;
 }
 
 .cd-testimonials-wrapper::after {
@@ -990,19 +962,19 @@ input::-webkit-input-placeholder {
 }
 
 .cd-testimonials p {
-    color: #e5e4e2;
-    font-family: 'Circular Std Medium', sans-serif;
+    color: #111111;
+    font-family: 'Be Vietnam', sans-serif;
     font-size: 2rem;
     /*    font-weight: 400;*/
     line-height: 3rem;
-    /*    letter-spacing: .04rem;*/
+    /*    letter-spacing:  0rem;*/
     padding-bottom: 4rem;
     /*    opacity: .8;*/
     /*    -webkit-text-stroke: .04rem #000000;*/
 }
 
 .cd-testimonials ul li a {
-    color: #e5e4e2;
+    color: #111111;
 }
 
 .flex-direction-nav li a:hover::before,
@@ -1023,12 +995,12 @@ input::-webkit-input-placeholder {
 
 .cd-author .cd-author-info li:first-child,
 .cd-author .cd-author-info li:last-child {
-    color: #e5e4e2;
-    font-family: 'Circular Std Medium', sans-serif;
+    color: #111111;
+    font-family: 'Be Vietnam', sans-serif;
     font-size: 2rem;
     /*    font-weight: 400;*/
     line-height: 3rem;
-    /*    letter-spacing: .04rem;*/
+    /*    letter-spacing:  0rem;*/
     padding-bottom: 4rem;
     /*    opacity: .8;*/
     padding: 0rem;
@@ -1067,18 +1039,14 @@ input::-webkit-input-placeholder {
 /*Contact*/
 
 #Contact {
-    background-color: #000000;
+    background-color: #FFFFFE;
     width: 100vw;
 }
 
 #Contact .Container {
-    background-color: #000000;
+    background-color: #FFFFFE;
     width: 100vw;
     padding: 12vh 12vw;
-}
-
-#Contact .Container h2 {
-    color: #FFFFFE;
 }
 
 #Contact .Container .Submit-Message {
@@ -1097,24 +1065,18 @@ input::-webkit-input-placeholder {
     margin-top: 4rem;
 }
 
-#Contact .Container form button {
-    /*    margin-top: 4rem;*/
-    cursor: pointer;
-    border-color: #FFFFFE;
-}
-
 
 #Contact .Container form .Form-Row .Form-Group input {
-    font-family: 'Circular Std Book', sans-serif;
+    font-family: 'Be Vietnam', sans-serif;
     font-size: 2rem;
 
     width: 100%;
-    letter-spacing: .04rem;
+    letter-spacing: 0rem;
 
     color: #FFFFFE;
     border: none;
 
-    background-color: #111111;
+    background-color: #e5e5e5;
     padding: 2rem 2rem;
     margin-bottom: 2rem;
 }
@@ -1137,12 +1099,12 @@ input::-webkit-input-placeholder {
 
     width: 100%;
 
-    letter-spacing: .04rem;
+    letter-spacing: 0rem;
 
     color: #FFFFFE;
     border: none;
 
-    background-color: #111111;
+    background-color: #e5e5e5;
     padding: 2rem 2rem;
 }
 
