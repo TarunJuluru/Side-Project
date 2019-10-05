@@ -86,7 +86,7 @@ body {
 
     position: relative;
 
-    margin: 0 auto;
+
 
     background-color: #111111;
     overflow-x: hidden;
@@ -96,10 +96,11 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+/*
 img {
     mix-blend-mode: luminosity;
     background-blend-mode: luminosity;
-}
+}*/
 
 /*
 a:hover {
@@ -162,7 +163,7 @@ html.sr .load-hidden {
 
 
 .Logo a {
-    font-family: 'Be Vietnam', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 2rem;
     font-style: normal;
     /*    font-weight: 700;*/
@@ -183,7 +184,7 @@ html.sr .load-hidden {
 
 
 .Top-Bar .Menu span {
-    font-family: 'Be Vietnam', sans-serif;
+    font-family: 'Rubik', sans-serif;
     /*    font-size: 2rem;*/
     font-style: normal;
     /*    font-weight: 700;*/
@@ -255,7 +256,7 @@ nav ul li {
 
 
 nav ul li a {
-    font-family: 'Be Vietnam', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 2rem;
     font-style: normal;
     /*    font-weight: 700;*/
@@ -269,7 +270,7 @@ nav ul li a {
 }
 
 a {
-    font-family: 'Be Vietnam', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 2rem;
     font-style: normal;
     /*    font-weight: 700;*/
@@ -350,7 +351,7 @@ nav ul li a:active {
 /*Headings*/
 
 h1 {
-    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Rubik', sans-serif;
     font-size: 8rem;
     font-weight: 800;
     font-style: normal;
@@ -361,21 +362,21 @@ h1 {
     text-align: left;
     text-transform: uppercase;
     word-wrap: break-word;
-    color: #FFFFFE;
-    /*    text-align: center;*/
+    color: #111111;
+    /*    text-align: left;*/
 }
 
 @media (max-width: 768px) {
     h1 {
         font-size: 6rem;
         line-height: 6rem;
-        text-align: center;
-        margin: 0 auto;
+        text-align: left;
+
     }
 }
 
 h2 {
-    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Rubik', sans-serif;
     font-size: 6rem;
     font-weight: 800;
     font-style: normal;
@@ -387,15 +388,15 @@ h2 {
     text-transform: uppercase;
     word-wrap: break-word;
     color: #000000;
-    /*    text-align: center;*/
+    /*    text-align: left;*/
 }
 
 @media (max-width: 768px) {
     h2 {
         font-size: 4rem;
         line-height: 5rem;
-        text-align: center;
-        margin: 0 auto;
+        text-align: left;
+
     }
 }
 
@@ -404,7 +405,7 @@ h2 {
 
 /*Paragraphs*/
 p {
-    font-family: 'Be Vietnam', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 2rem;
     font-weight: 400;
     line-height: 3rem;
@@ -419,7 +420,6 @@ p {
     p {
         font-size: 2.2rem;
         line-height: 3rem;
-
     }
 }
 
@@ -428,9 +428,9 @@ p {
     p {
         font-size: 2rem;
         line-height: 2.6rem;
-        text-align: center;
-        text-align: center;
-        margin: 0 auto;
+        text-align: left;
+        text-align: left;
+
     }
 }
 
@@ -465,10 +465,10 @@ button:hover a {
 }
 
 button a {
-    font-family: 'Be Vietnam', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 1.6rem;
     font-style: normal;
-    font-weight: 800;
+    font-weight: 600;
     font-stretch: normal;
     text-align: left;
     text-decoration: none;
@@ -485,8 +485,8 @@ button a {
 
 @media (max-width: 768px) {
     button {
-        text-align: center;
-        margin: 0 auto;
+        text-align: left;
+
     }
 }
 
@@ -494,8 +494,8 @@ button a {
 
 @media (max-width: 768px) {
     section {
-        text-align: center;
-        margin: 0 auto;
+        text-align: left;
+
     }
 }
 
@@ -520,9 +520,9 @@ button a {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    mix-blend-mode: luminosity;
-    background-blend-mode: luminosity;
-    /*    text-align: center;*/
+    /*    mix-blend-mode: luminosity;*/
+    /*    background-blend-mode: luminosity;*/
+    /*    text-align: left;*/
 }
 
 
@@ -580,7 +580,7 @@ button a {
 input[type=search] {
     -webkit-appearance: textfield;
     -webkit-box-sizing: content-box;
-    font-family: 'Be Vietnam', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 2rem;
     background-color: transparent;
     border: none;
@@ -647,29 +647,26 @@ input::-webkit-input-placeholder {
 
 #Header .Container h1 {
     padding-bottom: 4rem;
-    color: #111111;
 }
 
 #Header .Container h1 span {
     font-size: 8rem;
     padding: 0rem;
-    color: #111111;
 }
 
 #Header .Container h1 span.Small {
     font-size: 5rem;
+    font-weight: 600;
     /*    opacity: .6;*/
 }
 
 #Header .Container p {
     font-size: 3rem;
-    color: #111111;
 }
 
 #Header .Container p.Tag {
-    font-family: 'Be Vietnam', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 1.6rem;
-    color: #111111;
     /*    padding-left: 1rem;*/
     opacity: .6;
 }
@@ -680,7 +677,7 @@ input::-webkit-input-placeholder {
         flex-direction: column;
 
         max-width: 100%;
-        margin: 0 auto;
+
         padding: 20vh 8vw;
 
         -webkit-box-orient: vertical;
@@ -706,10 +703,15 @@ input::-webkit-input-placeholder {
 }
 
 @media (max-width: 768px) {
+
+    #Header {
+        background-image: url(../Assets/Primary-Small.jpg);
+    }
+
     #Header .Container {
         max-width: 100%;
-        text-align: center;
-        margin: 0 auto;
+        text-align: left;
+
         padding: 16vh 20vw;
     }
 
@@ -723,9 +725,9 @@ input::-webkit-input-placeholder {
 
     #Header .Container {
         max-width: 100%;
-        text-align: center;
-        margin: 0 auto;
-        padding: 40vh 8vw 8rem;
+        text-align: left;
+
+        padding: 20vh 8vw 8vh;
     }
 
     #Header .Container h1 span {
@@ -739,7 +741,7 @@ input::-webkit-input-placeholder {
     }
 
     #Header .Container p {
-        max-width: 96%;
+        max-width: 64%;
     }
 }
 
@@ -759,26 +761,26 @@ input::-webkit-input-placeholder {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    mix-blend-mode: luminosity;
-    background-blend-mode: luminosity;
+    /*    mix-blend-mode: luminosity;*/
+    /*    background-blend-mode: luminosity;*/
     width: 100vw;
     height: 100vh;
     padding: 16vh 24vw;
     /*    margin: 0vh 20vw;*/
     position: relative;
-    margin: 0 auto;
+
 }
 
 #Mission h1 {
     margin: 0 auto;
-    color: #111111;
+    color: #FFFFFE;
     text-align: center;
 }
 
 
 #Mission p {
     margin: 0 auto;
-    color: #111111;
+    color: #e5e5e5;
     text-align: center;
     width: 88%;
 }
@@ -788,8 +790,9 @@ input::-webkit-input-placeholder {
     #Mission {
         top: 0rem;
         width: 100vw;
-        margin: 0 auto;
+
         padding: 12vh 12vw;
+        background-image: url(../Assets/About/Motto-Small.jpg);
     }
 
     #Mission p {
@@ -833,7 +836,7 @@ input::-webkit-input-placeholder {
     /*    margin-top: 8rem;*/
     background-color: #FFFFFE;
     /*    padding: 0vh 8vw;*/
-    /*    text-align: center;*/
+    /*    text-align: left;*/
     flex-basis: 50%;
 }
 
@@ -900,17 +903,17 @@ input::-webkit-input-placeholder {
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-        text-align: center;
-        margin: 0 auto;
+        text-align: left;
+
     }
 
     #Service-1 {
-        padding: 12vh 0vw 0vh;
+        padding: 12vh 0vw;
     }
 
     #Service-2 {
         margin-left: 0rem;
-        padding: 12vh 0vw;
+        padding: 0vh 0vw 12vh;
     }
 
     #Service-1 .Content,
@@ -963,7 +966,7 @@ input::-webkit-input-placeholder {
 
 .cd-testimonials p {
     color: #111111;
-    font-family: 'Be Vietnam', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 2rem;
     /*    font-weight: 400;*/
     line-height: 3rem;
@@ -996,7 +999,7 @@ input::-webkit-input-placeholder {
 .cd-author .cd-author-info li:first-child,
 .cd-author .cd-author-info li:last-child {
     color: #111111;
-    font-family: 'Be Vietnam', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 2rem;
     /*    font-weight: 400;*/
     line-height: 3rem;
@@ -1017,20 +1020,20 @@ input::-webkit-input-placeholder {
 @media (max-width: 768px) {
     #Testimonials {
         padding: 4vh 0vw;
-        text-align: center;
-        margin: 0 auto;
+        text-align: left;
+
     }
 
     .cd-testimonials-wrapper {
         padding: 4rem;
-        text-align: center;
-        margin: 0 auto;
+        text-align: left;
+
     }
 
     .cd-author .cd-author-info li:first-child,
     .cd-author .cd-author-info li:last-child {
-        text-align: center;
-        margin: 0 auto;
+        text-align: left;
+
     }
 }
 
@@ -1067,17 +1070,18 @@ input::-webkit-input-placeholder {
 
 
 #Contact .Container form .Form-Row .Form-Group input {
-    font-family: 'Be Vietnam', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 2rem;
 
     width: 100%;
     letter-spacing: 0rem;
 
     color: #FFFFFE;
-    border: none;
+    border: .2rem solid #e5e5e5;
+    border-radius: .6rem;
 
-    background-color: #e5e5e5;
-    padding: 2rem 2rem;
+    background-color: #FFFFFE;
+    padding: 1.6rem;
     margin-bottom: 2rem;
 }
 
@@ -1094,7 +1098,7 @@ input::-webkit-input-placeholder {
 }
 
 #Contact .Container form .Form-Row .Form-Group textarea {
-    font-family: 'Apercu Pro Medium', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 2rem;
 
     width: 100%;
@@ -1102,10 +1106,11 @@ input::-webkit-input-placeholder {
     letter-spacing: 0rem;
 
     color: #FFFFFE;
-    border: none;
+    border: .2rem solid #e5e5e5;
+    border-radius: .6rem;
 
-    background-color: #e5e5e5;
-    padding: 2rem 2rem;
+    background-color: #FFFFFE;
+    padding: 1.6rem;
 }
 
 #Contact .Container form .Form-Row .Form-Group textarea::-webkit-input-placeholder {
@@ -1123,8 +1128,8 @@ input::-webkit-input-placeholder {
 @media (max-width: 768px) {
     #Contact .Container {
         padding: 12vh 8vw;
-        text-align: center;
-        margin: 0 auto;
+        text-align: left;
+
     }
 
     #Contact .Container .Submit-Message {
@@ -1135,8 +1140,8 @@ input::-webkit-input-placeholder {
 
     #Contact .Container .Submit-Message p.Tag {
         width: 64%;
-        text-align: center;
-        margin: 0 auto;
+        text-align: left;
+
         margin-top: 2rem;
     }
 }
@@ -1160,7 +1165,7 @@ input::-webkit-input-placeholder {
     display: -ms-flexbox;
     display: flex;
     max-width: 100%;
-    margin: 0 auto;
+
     padding: 2rem 12vw;
     background-color: #000000;
     -ms-flex-preferred-size: 100%;
