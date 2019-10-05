@@ -22,6 +22,26 @@
 
 /*Font*/
 
+@font-face {
+    font-family: Circular Std Black;
+    src: url('../Assets/Fonts/Circular/CircularStd-Black.otf');
+}
+
+@font-face {
+    font-family: Circular Std Bold;
+    src: url('../Assets/Fonts/Circular/CircularStd-Bold.otf');
+}
+
+@font-face {
+    font-family: Circular Std Medium;
+    src: url('../Assets/Fonts/Circular/CircularStd-Medium.otf');
+}
+
+@font-face {
+    font-family: Circular Std Book;
+    src: url('../Assets/Fonts/Circular/CircularStd-Book.otf');
+}
+
 /*Font*/
 
 /*Custom-Cursor*/
@@ -163,7 +183,7 @@ html.sr .load-hidden {
 
 
 .Logo a {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Circular Std Bold', sans-serif;
     font-size: 2rem;
     font-style: normal;
     /*    font-weight: 700;*/
@@ -184,7 +204,7 @@ html.sr .load-hidden {
 
 
 .Top-Bar .Menu span {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Circular Std Bold', sans-serif;
     /*    font-size: 2rem;*/
     font-style: normal;
     /*    font-weight: 700;*/
@@ -256,7 +276,7 @@ nav ul li {
 
 
 nav ul li a {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Circular Std Bold', sans-serif;
     font-size: 2rem;
     font-style: normal;
     /*    font-weight: 700;*/
@@ -270,7 +290,7 @@ nav ul li a {
 }
 
 a {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Circular Std Bold', sans-serif;
     font-size: 2rem;
     font-style: normal;
     /*    font-weight: 700;*/
@@ -351,7 +371,7 @@ nav ul li a:active {
 /*Headings*/
 
 h1 {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Circular Std Black', sans-serif;
     font-size: 8rem;
     font-weight: 800;
     font-style: normal;
@@ -376,7 +396,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Circular Std Black', sans-serif;
     font-size: 6rem;
     font-weight: 800;
     font-style: normal;
@@ -405,7 +425,7 @@ h2 {
 
 /*Paragraphs*/
 p {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Circular Std Book', sans-serif;
     font-size: 2rem;
     font-weight: 400;
     line-height: 3rem;
@@ -465,7 +485,7 @@ button:hover a {
 }
 
 button a {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Circular Std Bold', sans-serif;
     font-size: 1.6rem;
     font-style: normal;
     font-weight: 600;
@@ -540,9 +560,8 @@ button a {
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, .6);
+}*/
 
-}
-*/
 
 /*Text Animation*/
 .cd-headline.clip span {
@@ -580,7 +599,7 @@ button a {
 input[type=search] {
     -webkit-appearance: textfield;
     -webkit-box-sizing: content-box;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Circular Std Book', sans-serif;
     font-size: 2rem;
     background-color: transparent;
     border: none;
@@ -658,7 +677,7 @@ input::-webkit-input-placeholder {
 #Header .Container h1 span.Small {
     font-size: 5rem;
     font-weight: 600;
-    /*    opacity: .6;*/
+    opacity: .6;
 }
 
 #Header .Container p {
@@ -667,7 +686,7 @@ input::-webkit-input-placeholder {
 }
 
 #Header .Container p.Tag {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Circular Std Book', sans-serif;
     font-size: 1.6rem;
     /*    padding-left: 1rem;*/
     opacity: .6;
@@ -780,8 +799,8 @@ input::-webkit-input-placeholder {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    /*    mix-blend-mode: luminosity;*/
-    /*    background-blend-mode: luminosity;*/
+    mix-blend-mode: luminosity;
+    background-blend-mode: luminosity;
     width: 100vw;
     height: 100vh;
     padding: 16vh 24vw;
@@ -985,7 +1004,7 @@ input::-webkit-input-placeholder {
 
 .cd-testimonials p {
     color: #e5e5e5;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Circular Std Medium', sans-serif;
     font-size: 2rem;
     /*    font-weight: 400;*/
     line-height: 3rem;
@@ -1018,7 +1037,7 @@ input::-webkit-input-placeholder {
 .cd-author .cd-author-info li:first-child,
 .cd-author .cd-author-info li:last-child {
     color: #e5e5e5;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Circular Std Book', sans-serif;
     font-size: 2rem;
     /*    font-weight: 400;*/
     line-height: 3rem;
@@ -1110,7 +1129,7 @@ input::-webkit-input-placeholder {
 
 
 #Contact .Container form .Form-Row .Form-Group input {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Circular Std Book', sans-serif;
     font-size: 2rem;
 
     width: 100%;
@@ -1139,7 +1158,7 @@ input::-webkit-input-placeholder {
 }
 
 #Contact .Container form .Form-Row .Form-Group textarea {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Circular Std Book', sans-serif;
     font-size: 2rem;
 
     width: 100%;
@@ -1288,3 +1307,7 @@ input::-webkit-input-placeholder {
 }
 
 /*Footer*/
+
+/*About*/
+
+/*About*/
