@@ -551,7 +551,6 @@ button a {
     padding: 40vh 12vw 24vh;
 }
 
-/*
 #Header .Header-Overlay {
     position: absolute;
     top: 0;
@@ -559,7 +558,7 @@ button a {
     width: 100vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, .6);
-}*/
+}
 
 
 /*Text Animation*/
@@ -742,7 +741,7 @@ input::-webkit-input-placeholder {
 @media (max-width: 768px) {
 
     #Header {
-        background-image: url(../Assets/Primary-Small.jpg);
+        /*        background-image: url(../Assets/Primary-Small.jpg);*/
     }
 
     #Header .Container {
@@ -788,6 +787,7 @@ input::-webkit-input-placeholder {
 
 #Mission {
     /*    background-color: #000000;*/
+    /*
     background-image: url(../Assets/About/Motto.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -798,10 +798,11 @@ input::-webkit-input-placeholder {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+*/
     /*    mix-blend-mode: luminosity;*/
     /*    background-blend-mode: luminosity;*/
     width: 100vw;
-    height: 100vh;
+    /*    height: 100vh;*/
     padding: 16vh 24vw;
     /*    margin: 0vh 20vw;*/
     position: relative;
@@ -829,7 +830,7 @@ input::-webkit-input-placeholder {
         width: 100vw;
 
         padding: 12vh 12vw;
-        background-image: url(../Assets/About/Motto-Small.jpg);
+        /*        background-image: url(../Assets/About/Motto-Small.jpg);*/
     }
 
     #Mission p {
@@ -927,6 +928,7 @@ input::-webkit-input-placeholder {
 #Service-2 .Graphic .Image-Container img {
     min-width: 100%;
     min-height: 100%;
+    border-radius: .6rem;
     /*    mix-blend-mode: luminosity;*/
     /*    background-blend-mode: luminosity;*/
 }
@@ -945,17 +947,16 @@ input::-webkit-input-placeholder {
     }
 
     #Service-1 {
-        padding: 12vh 0vw;
+        padding: 12vh 8vw;
     }
 
     #Service-2 {
         margin-left: 0rem;
-        padding: 0vh 0vw 12vh;
+        padding: 0vh 8vw 12vh;
     }
 
     #Service-1 .Content,
     #Service-2 .Content {
-        padding: 6rem;
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     }
@@ -969,14 +970,14 @@ input::-webkit-input-placeholder {
 
     #Service-1 .Content {
         position: relative;
-        padding: 8vw;
+        padding: 8vh 0rem 0vh;
         margin-left: 0rem;
         z-index: 16;
     }
 
     #Service-2 .Content {
         position: relative;
-        padding: 8vw;
+        padding: 8vh 0rem;
         margin-right: 0rem;
         z-index: 16;
     }
