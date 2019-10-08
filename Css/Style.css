@@ -415,7 +415,6 @@ h2 {
         font-size: 4rem;
         line-height: 5rem;
         text-align: left;
-
     }
 }
 
@@ -836,11 +835,6 @@ input::-webkit-input-placeholder {
     z-index: 16;
 }
 
-#Service-1 .Content h1,
-#Service-2 .Content h1 {
-    color: #000000;
-}
-
 #Service-1 .Content p,
 #Service-2 .Content p {
     margin-bottom: 1rem;
@@ -905,6 +899,10 @@ input::-webkit-input-placeholder {
         flex-basis: 100%;
     }
 
+    #Service-1 .Content h2,
+    #Service-2 .Content h2 {
+        padding-bottom: 2rem;
+    }
 
     #Service-1 .Graphic,
     #Service-2 .Graphic {
@@ -1293,7 +1291,7 @@ input::-webkit-input-placeholder {
     /*    background-blend-mode: luminosity;*/
     width: 100vw;
     /*    height: 100vh;*/
-    padding: 20vh 24vw 8vh;
+    padding: 24vh 24vw 8vh;
     /*    margin: 0vh 20vw;*/
     position: relative;
     display: flex;
@@ -1322,7 +1320,7 @@ input::-webkit-input-placeholder {
     #Mission {
         width: 100vw;
 
-        padding: 20vh 12vw 8vh;
+        padding: 24vh 12vw 8vh;
         /*        background-image: url(../Assets/About/Motto-Small.jpg);*/
     }
 
@@ -1350,6 +1348,7 @@ input::-webkit-input-placeholder {
 #Team .Container h2 {
     text-align: center;
     line-height: 7rem;
+    text-transform: none;
 }
 
 #Team .Container p {
@@ -1365,6 +1364,11 @@ input::-webkit-input-placeholder {
 
         /*        padding: 12vh 12vw;*/
         /*        background-image: url(../Assets/About/Motto-Small.jpg);*/
+    }
+
+    #Team .Container h2 {
+        text-align: center;
+        line-height: 5rem;
     }
 
     #Team .Container p {
