@@ -1349,6 +1349,7 @@ input::-webkit-input-placeholder {
 
 #Team .Container h2 {
     text-align: center;
+    line-height: 7rem;
 }
 
 #Team .Container p {
