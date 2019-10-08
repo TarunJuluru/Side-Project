@@ -319,7 +319,7 @@ a {
         -webkit-transition: all .4s ease;
         transition: all .4s ease;
 
-        background-color: #FFFFFE;
+        background-color: #000000;
         /*    border-top: .2rem solid transparent;*/
     }
 
@@ -348,7 +348,7 @@ a {
 
     nav ul li a {
         padding-left: 2rem;
-        color: #000000;
+        color: #FFFFFE;
     }
 }
 
@@ -491,7 +491,7 @@ button a {
     font-stretch: normal;
     text-align: left;
     text-decoration: none;
-    /*    letter-spacing:  0rem;*/
+    letter-spacing: 0.2rem;
     text-transform: uppercase;
     /*    text-decoration: underline;*/
     /*    padding-bottom: .8rem;*/
@@ -557,7 +557,7 @@ button a {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, .3);
 }
 
 
@@ -663,7 +663,7 @@ input::-webkit-input-placeholder {
 */
 
 #Header .Container h1 {
-    padding-bottom: 4rem;
+    padding-bottom: 6rem;
     color: #FFFFFE;
 }
 
@@ -673,7 +673,7 @@ input::-webkit-input-placeholder {
 }
 
 #Header .Container h1 span.Small {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 600;
     opacity: .6;
 }
@@ -741,7 +741,7 @@ input::-webkit-input-placeholder {
 @media (max-width: 768px) {
 
     #Header {
-        /*        background-image: url(../Assets/Primary-Small.jpg);*/
+        background-image: url(../Assets/Primary-Small.jpg);
     }
 
     #Header .Container {
@@ -763,7 +763,11 @@ input::-webkit-input-placeholder {
         max-width: 100%;
         text-align: left;
 
-        padding: 20vh 8vw 8vh;
+        padding: 20vh 8vw 4vh;
+    }
+
+    #Header .Container h1 {
+        margin-bottom: 6rem;
     }
 
     #Header .Container h1 span {
@@ -777,71 +781,11 @@ input::-webkit-input-placeholder {
     }
 
     #Header .Container p {
-        max-width: 64%;
+        /*        max-width: 64%;*/
     }
 }
 
 /*Header*/
-
-/*Mission*/
-
-#Mission {
-    /*    background-color: #000000;*/
-    /*
-    background-image: url(../Assets/About/Motto.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-*/
-    /*    mix-blend-mode: luminosity;*/
-    /*    background-blend-mode: luminosity;*/
-    width: 100vw;
-    /*    height: 100vh;*/
-    padding: 16vh 24vw;
-    /*    margin: 0vh 20vw;*/
-    position: relative;
-
-}
-
-#Mission h1 {
-    margin: 0 auto;
-    color: #FFFFFE;
-    text-align: center;
-}
-
-
-#Mission p {
-    margin: 0 auto;
-    color: #e5e5e5;
-    text-align: center;
-    width: 88%;
-}
-
-@media (max-width: 768px) {
-
-    #Mission {
-        top: 0rem;
-        width: 100vw;
-
-        padding: 12vh 12vw;
-        /*        background-image: url(../Assets/About/Motto-Small.jpg);*/
-    }
-
-    #Mission p {
-        width: 100%;
-    }
-}
-
-
-/*Mission*/
-
-/*About*/
 
 
 #Service-1,
@@ -991,6 +935,11 @@ input::-webkit-input-placeholder {
     background-color: #111111;
 }
 
+#Testimonials h2 {
+    color: #FFFFFE;
+    text-align: center;
+}
+
 /*Slider*/
 
 .cd-testimonials-wrapper {
@@ -1009,6 +958,7 @@ input::-webkit-input-placeholder {
     /*    font-weight: 400;*/
     line-height: 3rem;
     /*    letter-spacing:  0rem;*/
+    padding: 2rem;
     padding-bottom: 4rem;
     text-align: center;
     /*    opacity: .8;*/
@@ -1322,5 +1272,105 @@ input::-webkit-input-placeholder {
 /*Footer*/
 
 /*About*/
+
+/*Mission*/
+
+#Mission {
+    background-color: #000000;
+    /*
+    background-image: url(../Assets/About/Motto.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+*/
+    /*    mix-blend-mode: luminosity;*/
+    /*    background-blend-mode: luminosity;*/
+    width: 100vw;
+    /*    height: 100vh;*/
+    padding: 20vh 24vw 8vh;
+    /*    margin: 0vh 20vw;*/
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#Mission h1 {
+    margin: 0 auto;
+    color: #FFFFFE;
+    text-align: center;
+}
+
+
+#Mission p {
+    margin: 0 auto;
+    color: #e5e5e5;
+    text-align: center;
+    width: 88%;
+}
+
+@media (max-width: 768px) {
+
+    #Mission {
+        width: 100vw;
+
+        padding: 20vh 12vw 8vh;
+        /*        background-image: url(../Assets/About/Motto-Small.jpg);*/
+    }
+
+    #Mission p {
+        width: 100%;
+    }
+}
+
+/*Mission*/
+
+/*Team*/
+#Team {
+    background-color: #FFFFFE;
+    width: 100vw;
+}
+
+#Team .Container {
+    background-color: #FFFFFE;
+    width: 100vw;
+    padding: 12vh 12vw;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#Team .Container h2 {
+    text-align: center;
+}
+
+#Team .Container p {
+    width: 72%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+
+    #Team {
+        width: 100vw;
+
+        /*        padding: 12vh 12vw;*/
+        /*        background-image: url(../Assets/About/Motto-Small.jpg);*/
+    }
+
+    #Team .Container p {
+        width: 100%;
+    }
+}
+
+/*Team*/
 
 /*About*/
