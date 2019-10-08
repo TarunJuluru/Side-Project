@@ -1,0 +1,27 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "Dchos.com",
+    "scope": "/",
+    "display": "fullscreen",
+    "start_url": "/index.html",
+    "short_name": "Dchos.com",
+    "theme_color": "#000000",
+    "description": "I'm Tarun Juluru a designer specialize in interface design for web. I strive to create functional, delightful and valuable experiences that leave a positive impact on people.",
+    "background_color": "#000000",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "generated": "undefined",
+    "icons": [
+        {
+            "src": "/Assets/Favicon/Favicon-200.png",
+            "sizes": "200x200",
+            "type": "image/png"
+        },
+        {
+            "src": "/Assets/Favicon/Favicon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
