@@ -77,20 +77,47 @@
     <!--     Header-->
     <header id="Header">
         <div class="Container" data-aos="fade-up" data-aos-offset="200" data-aos-delay="20" data-aos-duration="800" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true">
-            <h1 class="cd-headline clip">
-                <span class="Small">Looking for</span>
-                <br>
-                <span class="cd-words-wrapper">
-                    <b class="is-visible">Career counseling</b>
-                    <b>Abroad Education</b>
-                    <b>University selection</b>
-                    <b>Visa processing</b>
-                    <b>Education Loan</b>
-                </span>
-            </h1>
-            <p>A great place to explore your dreams.</p>
-            <button id="scrollButton"><a href="#Contact" target="_blank">contact us</a></button>
-            <p class="Tag">*Zero Consultation fee</p>
+            <div class="Content">
+                <h1 class="cd-headline clip">
+                    <span class="Small">Looking for</span>
+                    <br>
+                    <span class="cd-words-wrapper">
+                        <b class="is-visible">Career counseling</b>
+                        <b>Abroad Education</b>
+                        <b>University selection</b>
+                        <b>Visa processing</b>
+                        <b>Education Loan</b>
+                    </span>
+                </h1>
+                <p>A great place to explore your dreams.</p>
+                <button id="scrollButton"><a href="#Contact" target="_blank">contact us</a></button>
+                <p class="Tag">*Zero Consultation fee</p>
+            </div>
+            <div class="Form-Container">
+                <form name="contact" method="post" netlify>
+                    <div class="Form-Row">
+                        <div class="Form-Group">
+                            <input type="text" required class="form-control highlights" id="fullname-" name="fullname" placeholder="Full Name*">
+                        </div>
+                        <div class="Form-Group">
+                            <input type="email" required class="form-control highlights" id="email" name="email" placeholder="Email*">
+                        </div>
+                        <div class="Form-Group">
+                            <input type="number" required class="form-control highlights" id="mobile-no" name="mobile-no" placeholder="Mobile No*">
+                        </div>
+                        <div class="Form-Group">
+                            <input type="text" required class="form-control highlights" id="country" name="country" placeholder="Country*">
+                        </div>
+                        <div class="Form-Group">
+                            <textarea class="form-control highlights" rows="8" name="message" id="message" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="Submit-Message">
+                        <p class="Tag">*Terms and Conditions.</p>
+                        <button type="submit"><a>send message</a></button>
+                    </div>
+                </form>
+            </div>
         </div>
         <div class="Header-Overlay"></div>
     </header>
@@ -153,6 +180,12 @@
             </ul> <!-- cd-testimonials -->
         </div> <!-- cd-testimonials-wrapper -->
     </section>
+    <!--
+    <section id="Country-form">
+        <div class="cd-testimonials-wrapper cd-container" data-aos="fade-up" data-aos-offset="200" data-aos-delay="20" data-aos-duration="800" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true"></div>
+        <h2></h2>
+    </section>
+-->
     <section id="Service-1">
         <div class="Graphic" data-aos="fade-right" data-aos-offset="200" data-aos-delay="40" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true">
             <div class="Image-Container">
@@ -174,8 +207,9 @@
             </div>
         </div>
         <div class="Content" data-aos="fade-right" data-aos-offset="200" data-aos-delay="20" data-aos-duration="800" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="true">
-            <h2>Study in India</h2>
-            <p>Education is designed by the state where the government is responsible for quality education. Presently India is blessed with various schools, colleges, and other institutions which are providing quality education to the students.<a href="Pages/Study-India.html">learn more</a></p>
+            <h2>Assignment & Dissertation</h2>
+            <p>Not Able to Finish Your Dissertation Assignment ?
+                No Hidden Charges. Beneficial Services With Pocket Friendly Budget & fast Delivery. One stop solution to all your assignment & dissertation requirements. We provide the best thesis writing and report writing services.<a href="Pages/Study-India.html">learn more</a></p>
             <!--            <button><a href="#" target="_blank">learn more</a></button>-->
         </div>
     </section>

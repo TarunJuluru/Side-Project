@@ -466,7 +466,7 @@ button {
     padding: 1.6rem;
     border: .2rem solid #000000;
     background-color: transparent;
-    border-radius: 1rem;
+
 }
 
 button:hover {
@@ -548,6 +548,101 @@ button a {
     z-index: 4;
     min-width: 100vw;
     padding: 40vh 12vw 24vh;
+    display: flex;
+}
+
+#Header .Container .Content {
+    min-width: 60%;
+}
+
+#Header .Container .Form-Container {
+    min-width: 30%;
+}
+
+#Header .Container .Form-Container form .Form-Row .Form-Group input {
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 2rem;
+
+    width: 80%;
+    letter-spacing: 0rem;
+
+    color: #FFFFFE;
+    border: none;
+    border: .2rem solid #e5e5e5;
+
+
+    background-color: transparent;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+#Header .Container .Form-Container form .Form-Row .Form-Group input::-webkit-input-placeholder {
+    opacity: .8;
+}
+
+#Header .Container .Form-Container form .Form-Row .Form-Group input:-ms-input-placeholder {
+    opacity: .8;
+}
+
+#Header .Container .Form-Container form .Form-Row .Form-Group input::placeholder {
+    opacity: .8;
+}
+
+#Header .Container .Form-Container form .Form-Row .Form-Group textarea {
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 2rem;
+
+    width: 80%;
+
+    letter-spacing: 0rem;
+
+    color: #FFFFFE;
+    border: none;
+    border: .2rem solid #e5e5e5;
+
+
+    background-color: transparent;
+    padding: 1rem;
+    height: 12rem;
+}
+
+#Header .Container .Form-Container form button {
+    border: .2rem solid #e5e5e5;
+}
+
+#Header .Container .Form-Container form button:hover {
+    background-color: #e5e5e5;
+}
+
+#Header .Container .Form-Container form button:hover a {
+    color: #111111 !important;
+}
+
+
+#Header .Container .Form-Container form button a {
+    color: #e5e5e5;
+}
+
+#Header .Container .Form-Container form .Form-Row .Form-Group textarea::-webkit-input-placeholder {
+    opacity: .8;
+}
+
+#Header .Container .Form-Container form .Form-Row .Form-Group textarea:-ms-input-placeholder {
+    opacity: .8;
+}
+
+#Header .Container .Form-Container form .Form-Row .Form-Group textarea::placeholder {
+    opacity: .8;
+}
+
+#Header .Container .Form-Container form p {
+    color: #e5e5e5;
+}
+
+@media (max-width: 768px) {
+    #Header .Container .Form-Container {
+        display: none;
+    }
 }
 
 #Header .Header-Overlay {
@@ -661,28 +756,28 @@ input::-webkit-input-placeholder {
 }
 */
 
-#Header .Container h1 {
+#Header .Container .Content h1 {
     padding-bottom: 6rem;
     color: #FFFFFE;
 }
 
-#Header .Container h1 span {
+#Header .Container .Content h1 span {
     font-size: 8rem;
     padding: 0rem;
 }
 
-#Header .Container h1 span.Small {
+#Header .Container .Content h1 span.Small {
     font-size: 4rem;
     font-weight: 600;
     opacity: .6;
 }
 
-#Header .Container p {
+#Header .Container .Content p {
     font-size: 3rem;
     color: #e5e5e5;
 }
 
-#Header .Container p.Tag {
+#Header .Container .Content p.Tag {
     font-family: 'Circular Std Book', sans-serif;
     font-size: 1.6rem;
     /*    padding-left: 1rem;*/
@@ -690,19 +785,19 @@ input::-webkit-input-placeholder {
     color: #e5e5e5;
 }
 
-#Header .Container button {
+#Header .Container .Content button {
     border: .2rem solid #ffffff;
 }
 
-#Header .Container button a {
+#Header .Container .Content button a {
     color: #FFFFFE;
 }
 
-#Header .Container button:hover {
+#Header .Container .Content button:hover {
     background-color: #FFFFFE;
 }
 
-#Header .Container button:hover a {
+#Header .Container .Content button:hover a {
     color: #000000 !important;
 }
 
@@ -868,7 +963,7 @@ input::-webkit-input-placeholder {
 #Service-2 .Graphic .Image-Container img {
     min-width: 100%;
     min-height: 100%;
-    border-radius: .6rem;
+
     /*    mix-blend-mode: luminosity;*/
     /*    background-blend-mode: luminosity;*/
 }
@@ -1036,6 +1131,8 @@ input::-webkit-input-placeholder {
 
 /*Testimonials*/
 
+/*Country-form*/
+
 /*Contact*/
 
 #Contact {
@@ -1097,7 +1194,7 @@ input::-webkit-input-placeholder {
     color: #FFFFFE;
     border: none;
     /*    border: .2rem solid #e5e5e5;*/
-    border-radius: .6rem;
+
 
     background-color: #111111;
     padding: 1.6rem;
@@ -1127,7 +1224,7 @@ input::-webkit-input-placeholder {
     color: #FFFFFE;
     border: none;
     /*    border: .2rem solid #e5e5e5;*/
-    border-radius: .6rem;
+
 
     background-color: #111111;
     padding: 1.6rem;
@@ -1293,7 +1390,7 @@ input::-webkit-input-placeholder {
     /*    background-blend-mode: luminosity;*/
     width: 100vw;
     /*    height: 100vh;*/
-    padding: 24vh 24vw 8vh;
+    padding: 8vh 24vw 8vh;
     /*    margin: 0vh 20vw;*/
     position: relative;
     display: flex;
@@ -1301,6 +1398,20 @@ input::-webkit-input-placeholder {
     align-items: center;
     justify-content: center;
 
+}
+
+#About-Header {
+    background-image: url(../Assets/About/Motto.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 40vh;
 }
 
 #Mission h1 {
