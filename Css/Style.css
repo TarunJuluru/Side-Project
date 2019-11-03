@@ -545,18 +545,18 @@ button a {
 }
 
 #Header .Container .Content {
-    min-width: 60%;
+    min-width: 72%;
 }
 
 #Header .Container .Form-Container {
-    min-width: 30%;
+    min-width: 24%;
 }
 
 #Header .Container .Form-Container form .Form-Row .Form-Group input {
     font-family: 'Circular Std Book', sans-serif;
     font-size: 2rem;
 
-    width: 80%;
+    width: 100%;
     letter-spacing: 0rem;
 
     color: #FFFFFE;
@@ -585,7 +585,7 @@ button a {
     font-family: 'Circular Std Book', sans-serif;
     font-size: 2rem;
 
-    width: 80%;
+    width: 100%;
 
     letter-spacing: 0rem;
 
@@ -632,7 +632,7 @@ button a {
     color: #e5e5e5;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     #Header .Container .Form-Container {
         display: none;
     }
