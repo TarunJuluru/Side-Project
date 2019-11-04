@@ -545,11 +545,11 @@ button a {
 }
 
 #Header .Container .Content {
-    min-width: 72%;
+    min-width: 75%;
 }
 
 #Header .Container .Form-Container {
-    min-width: 24%;
+    min-width: 25%;
 }
 
 #Header .Container .Form-Container form .Form-Row .Form-Group input {
@@ -1421,7 +1421,7 @@ input::-webkit-input-placeholder {
     #Mission {
         width: 100vw;
 
-        padding: 24vh 12vw 8vh;
+        padding: 12vh 12vw 8vh;
         /*        background-image: url(../Assets/About/Motto-Small.jpg);*/
     }
 
