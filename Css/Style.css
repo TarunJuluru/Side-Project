@@ -470,6 +470,7 @@ button {
 }
 
 button:hover {
+    -webkit-transition: all .6s ease;
     transition: all .6s ease;
     background-color: #000000;
     /*    border: .2rem solid #000000 !important;*/
@@ -478,6 +479,7 @@ button:hover {
 
 
 button:hover a {
+    -webkit-transition: all .6s ease;
     transition: all .6s ease;
     color: #FFFFFE !important;
 }
@@ -541,6 +543,8 @@ button a {
     z-index: 4;
     min-width: 100vw;
     padding: 40vh 12vw 24vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -569,17 +573,40 @@ button a {
     margin-bottom: 1rem;
 }
 
-#Header .Container .Form-Container form .Form-Row .Form-Group input::-webkit-input-placeholder {
-    opacity: .8;
+#Header .Container .Form-Container form .Form-Row .Form-Group select {
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 2rem;
+
+    width: 100%;
+    letter-spacing: 0rem;
+
+    color: #FFFFFE;
+    border: none;
+    border: .2rem solid #e5e5e5;
+
+
+    background-color: transparent;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
 
-#Header .Container .Form-Container form .Form-Row .Form-Group input:-ms-input-placeholder {
-    opacity: .8;
+#Header .Container .Form-Container form .Form-Row .Form-Group select option {
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 2rem;
+
+    width: 100%;
+    letter-spacing: 0rem;
+
+    color: #FFFFFE;
+    border: none;
+    border: .2rem solid #e5e5e5;
+
+
+    background-color: #212121;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
 
-#Header .Container .Form-Container form .Form-Row .Form-Group input::placeholder {
-    opacity: .8;
-}
 
 #Header .Container .Form-Container form .Form-Row .Form-Group textarea {
     font-family: 'Circular Std Book', sans-serif;
@@ -614,18 +641,6 @@ button a {
 
 #Header .Container .Form-Container form button a {
     color: #e5e5e5;
-}
-
-#Header .Container .Form-Container form .Form-Row .Form-Group textarea::-webkit-input-placeholder {
-    opacity: .8;
-}
-
-#Header .Container .Form-Container form .Form-Row .Form-Group textarea:-ms-input-placeholder {
-    opacity: .8;
-}
-
-#Header .Container .Form-Container form .Form-Row .Form-Group textarea::placeholder {
-    opacity: .8;
 }
 
 #Header .Container .Form-Container form p {
@@ -665,14 +680,12 @@ button a {
     background: #FFFFFE;
     z-index: 2;
     -webkit-transition: width 0.3s -0.1s;
-    -moz-transition: width 0.3s -0.1s;
     transition: width 0.3s -0.1s;
 }
 
 .cd-headline.clip .cd-words-wrapper.is-loading::after {
     width: 100%;
     -webkit-transition: width 6s;
-    -moz-transition: width 6s;
     transition: width 6s;
 }
 
@@ -880,16 +893,21 @@ input::-webkit-input-placeholder {
     display: -ms-flexbox;
     display: flex;
     /*    flex-direction: column;*/
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
 #Service-1 {
-    padding: 20vh 12vw 0vh;
+    padding: 20vh 12vw;
     /*    background-color:  #111111;    */
 }
 
 #Service-2 {
     padding: 20vh 12vw;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
     flex-direction: row-reverse;
     /*    background-color: #111111;*/
     /*    margin-left: -8rem;*/
@@ -903,6 +921,7 @@ input::-webkit-input-placeholder {
     background-color: #FFFFFE;
     /*    padding: 0vh 8vw;*/
     /*    text-align: left;*/
+    -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
 }
 
@@ -1066,6 +1085,7 @@ input::-webkit-input-placeholder {
 .cd-author img {
     border: none;
     border-radius: 50%;
+    -webkit-box-shadow: unset;
     box-shadow: unset;
     width: 12rem;
     height: 12rem;
@@ -1139,7 +1159,11 @@ input::-webkit-input-placeholder {
 }
 
 #Contact .Container .Submit-Message {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-top: 4rem;
 }
@@ -1237,18 +1261,26 @@ input::-webkit-input-placeholder {
     }
 
     #Contact .Container .Submit-Message {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -ms-flex-line-pack: start;
         align-content: flex-start;
         margin-top: 2rem;
         text-align: left;
     }
 
     #Contact .Container .Submit-Message button {
+        -ms-flex-item-align: start;
         align-self: flex-start;
     }
 
     #Contact .Container .Submit-Message p.Tag {
+        -ms-flex-item-align: start;
         align-self: flex-start;
         width: 64%;
         text-align: left;
@@ -1294,6 +1326,8 @@ input::-webkit-input-placeholder {
 }
 
 #Footer .Container ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -1345,7 +1379,12 @@ input::-webkit-input-placeholder {
 
     #Footer .Container ul {
         margin-top: 4rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
     }
 
@@ -1381,9 +1420,18 @@ input::-webkit-input-placeholder {
     padding: 12vh 24vw;
     /*    margin: 0vh 20vw;*/
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 
 }
