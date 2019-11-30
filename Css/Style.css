@@ -418,6 +418,30 @@ h2 {
     }
 }
 
+h3 {
+    font-family: 'Circular Std Black', sans-serif;
+    font-size: 4rem;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 4rem;
+    /*    padding-top: 2rem;*/
+    padding-bottom: 4rem;
+    text-align: left;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    color: #FFFFFE;
+    /*    text-align: left;*/
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 3rem;
+        line-height: 3rem;
+        text-align: left;
+    }
+}
+
 
 /*Headings*/
 
@@ -521,7 +545,7 @@ button a {
     display: -ms-flexbox;
     display: flex;
     width: 100vw;
-    height: 100vh;
+    /*    height: 100vh;*/
     /*    background-color: rgba(0, 0, 0, 0.8);*/
     background-image: url(../Assets/Primary.jpg);
     background-repeat: no-repeat;
@@ -649,7 +673,15 @@ button a {
 
 @media (max-width: 1024px) {
     #Header .Container .Form-Container {
-        display: none;
+        /*        display: none;*/
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+
     }
 }
 
@@ -658,7 +690,7 @@ button a {
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: 40%;
     background-color: rgba(0, 0, 0, .6);
 }
 
@@ -858,7 +890,7 @@ input::-webkit-input-placeholder {
         max-width: 100%;
         text-align: left;
 
-        padding: 28vh 8vw 4vh;
+        padding: 24vh 8vw 8vh;
     }
 
     /*
@@ -943,7 +975,7 @@ input::-webkit-input-placeholder {
 #Service-2 .Content p {
     margin-bottom: 1rem;
     color: #111111;
-    width: 88%;
+    width: 80%;
 }
 
 
@@ -1304,6 +1336,10 @@ input::-webkit-input-placeholder {
     margin-bottom: 0;
     /*    height: 100vh;*/
     background-color: #000000;
+    /*
+    position: fixed;
+    bottom: 0;
+*/
 }
 
 #Footer .Container {
@@ -1528,3 +1564,58 @@ input::-webkit-input-placeholder {
 /*Team*/
 
 /*About*/
+
+/*UK*/
+#UK {
+    background-color: #111111;
+    width: 100vw;
+}
+
+#UK .Container {
+    background-color: #111111;
+    width: 100vw;
+    padding: 24vh 12vw 12vh;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#UK .Container h2 {
+    color: #fffffe;
+    margin-bottom: 4rem;
+}
+
+#UK .Container h3 {
+    margin-top: 5rem;
+}
+
+#UK .Container p {
+    color: #fffffe;
+    text-align: left;
+}
+
+#UK .Container p strong {
+    font-size: 4rem;
+}
+
+#UK .Container ul li {
+    margin-bottom: 1rem;
+    text-align: left;
+    font-family: 'Circular Std Book', sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    /*    font-weight: 700;*/
+    font-stretch: normal;
+
+    text-align: left;
+    letter-spacing: 0rem;
+    text-transform: capitalize;
+
+    color: #FFFFFE;
+}
+
+#UK .Container ul li.List-Heading {
+    font-size: 3rem;
+    text-transform: none;
+}
+
+/*UK*/
