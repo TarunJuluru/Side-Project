@@ -599,22 +599,27 @@ button a {
 
 #Header .Container .Form-Container form .Form-Row .Form-Group input::-webkit-input-placeholder {
     color: #e5e4e2;
+    opacity: 0.6;
 }
 
 #Header .Container .Form-Container form .Form-Row .Form-Group textarea::-webkit-input-placeholder {
     color: #e5e4e2;
+    opacity: 0.6;
 }
 
 #Header .Container .Form-Container form .Form-Row .Form-Group input:-ms-input-placeholder {
-    color: aliceblue;
+    color: #e5e4e2;
+    opacity: 0.6;
 }
 
 #Header .Container .Form-Container form .Form-Row .Form-Group input::-webkit-input-placeholder {
-    color: aliceblue;
+    color: #e5e4e2;
+    opacity: 0.6;
 }
 
 #Header .Container .Form-Container form .Form-Row .Form-Group input::placeholder {
-    color: aliceblue;
+    color: #e5e4e2;
+    opacity: 0.6;
 }
 
 #Header .Container .Form-Container form .Form-Row .Form-Group select {
@@ -905,6 +910,10 @@ input::-webkit-input-placeholder {
 }
 
 @media (max-width: 480px) {
+
+    #Header {
+        background-position: left;
+    }
 
     #Header .Container {
         max-width: 100%;
