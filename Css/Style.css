@@ -996,6 +996,12 @@ input::-webkit-input-placeholder {
     z-index: 16;
 }
 
+#Service-1 .Content h3,
+#Service-2 .Content h3 {
+    color: #111111;
+}
+
+
 #Service-1 .Content p,
 #Service-2 .Content p {
     margin-bottom: 1rem;
@@ -1060,8 +1066,8 @@ input::-webkit-input-placeholder {
         flex-basis: 100%;
     }
 
-    #Service-1 .Content h2,
-    #Service-2 .Content h2 {
+    #Service-1 .Content h3,
+    #Service-2 .Content h3 {
         padding-bottom: 2rem;
     }
 
