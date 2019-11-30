@@ -424,7 +424,7 @@ h3 {
     font-weight: 800;
     font-style: normal;
     font-stretch: normal;
-    line-height: 4rem;
+    line-height: 5rem;
     /*    padding-top: 2rem;*/
     padding-bottom: 4rem;
     text-align: left;
@@ -435,9 +435,9 @@ h3 {
 }
 
 @media (max-width: 768px) {
-    h2 {
+    h3 {
         font-size: 3rem;
-        line-height: 3rem;
+        line-height: 4rem;
         text-align: left;
     }
 }
@@ -546,7 +546,6 @@ button a {
     display: flex;
     width: 100vw;
     /*    height: 100vh;*/
-    /*    background-color: rgba(0, 0, 0, 0.8);*/
     background-image: url(../Assets/Primary.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -557,6 +556,7 @@ button a {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    /*    background-color: rgba(0, 0, 0, 0.6);*/
     /*    mix-blend-mode: luminosity;*/
     /*    background-blend-mode: luminosity;*/
     /*    text-align: left;*/
@@ -595,6 +595,26 @@ button a {
     background-color: transparent;
     padding: 1rem;
     margin-bottom: 1rem;
+}
+
+#Header .Container .Form-Container form .Form-Row .Form-Group input::-webkit-input-placeholder {
+    color: #e5e4e2;
+}
+
+#Header .Container .Form-Container form .Form-Row .Form-Group textarea::-webkit-input-placeholder {
+    color: #e5e4e2;
+}
+
+#Header .Container .Form-Container form .Form-Row .Form-Group input:-ms-input-placeholder {
+    color: aliceblue;
+}
+
+#Header .Container .Form-Container form .Form-Row .Form-Group input::-webkit-input-placeholder {
+    color: aliceblue;
+}
+
+#Header .Container .Form-Container form .Form-Row .Form-Group input::placeholder {
+    color: aliceblue;
 }
 
 #Header .Container .Form-Container form .Form-Row .Form-Group select {
@@ -690,7 +710,7 @@ button a {
     top: 0;
     left: 0;
     width: 100vw;
-    height: 40%;
+    /*    height: 100%;*/
     background-color: rgba(0, 0, 0, .6);
 }
 
@@ -912,6 +932,11 @@ input::-webkit-input-placeholder {
     #Header .Container .Content p {
         /*        max-width: 64%;*/
     }
+
+    #Header .Container .Content .Registration-Btn,
+    #Header .Container .Content .Registration-Tag {
+        display: none;
+    }
 }
 
 /*Header*/
@@ -1038,6 +1063,11 @@ input::-webkit-input-placeholder {
     #Service-1 .Content h2,
     #Service-2 .Content h2 {
         padding-bottom: 2rem;
+    }
+
+    #Service-1 .Content p,
+    #Service-2 .Content p {
+        width: 96%;
     }
 
     #Service-1 .Graphic,
@@ -1595,6 +1625,7 @@ input::-webkit-input-placeholder {
 
 #UK .Container p strong {
     font-size: 4rem;
+    line-height: 5rem;
 }
 
 #UK .Container ul li {
