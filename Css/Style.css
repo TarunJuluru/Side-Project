@@ -952,7 +952,8 @@ input::-webkit-input-placeholder {
 
 
 #Service-1,
-#Service-2 {
+#Service-2,
+#Service-3 {
     background-color: #FFFFFE;
     width: 100vw;
     display: -webkit-box;
@@ -965,12 +966,12 @@ input::-webkit-input-placeholder {
 }
 
 #Service-1 {
-    padding: 20vh 12vw;
+    padding: 20vh 12vw 4vh;
     /*    background-color:  #111111;    */
 }
 
 #Service-2 {
-    padding: 20vh 12vw;
+    padding: 20vh 12vw 4vh;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
     -ms-flex-direction: row-reverse;
@@ -979,8 +980,19 @@ input::-webkit-input-placeholder {
     /*    margin-left: -8rem;*/
 }
 
+#Service-3 {
+    padding: 20vh 12vw;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    /*    background-color: #111111;*/
+    /*    margin-left: -8rem;*/
+}
+
 #Service-1 .Content,
-#Service-2 .Content {
+#Service-2 .Content,
+#Service-3 .Content {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
     /*    margin-top: 8rem;*/
@@ -1005,14 +1017,23 @@ input::-webkit-input-placeholder {
     z-index: 16;
 }
 
+#Service-3 .Content {
+    position: relative;
+    padding: 6rem 0rem 0rem 6rem;
+    /*    margin-right: -8rem;*/
+    z-index: 16;
+}
+
 #Service-1 .Content h3,
-#Service-2 .Content h3 {
+#Service-2 .Content h3,
+#Service-3 .Content h3 {
     color: #111111;
 }
 
 
 #Service-1 .Content p,
-#Service-2 .Content p {
+#Service-2 .Content p,
+#Service-3 .Content p {
     margin-bottom: 1rem;
     color: #111111;
     width: 80%;
@@ -1020,7 +1041,8 @@ input::-webkit-input-placeholder {
 
 
 #Service-1 .Content p a,
-#Service-2 .Content p a {
+#Service-2 .Content p a,
+#Service-3 .Content p a {
     color: #000000;
     padding-left: .6rem;
     text-decoration: underline;
@@ -1028,18 +1050,21 @@ input::-webkit-input-placeholder {
 }
 
 #Service-1 .Graphic,
-#Service-2 .Graphic {
+#Service-2 .Graphic,
+#Service-3 .Graphic {
     -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
 }
 
 #Service-1 .Graphic .Image-Container,
-#Service-2 .Graphic .Image-Container {
+#Service-2 .Graphic .Image-Container,
+#Service-3 .Graphic .Image-Container {
     max-width: 100%;
 }
 
 #Service-1 .Graphic .Image-Container img,
-#Service-2 .Graphic .Image-Container img {
+#Service-2 .Graphic .Image-Container img,
+#Service-3 .Graphic .Image-Container img {
     min-width: 100%;
     min-height: 100%;
 
@@ -1050,7 +1075,8 @@ input::-webkit-input-placeholder {
 @media (max-width: 768px) {
 
     #Service-1,
-    #Service-2 {
+    #Service-2,
+    #Service-3 {
         width: 100%;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -1069,24 +1095,33 @@ input::-webkit-input-placeholder {
         padding: 0vh 8vw 12vh;
     }
 
+    #Service-3 {
+        margin-left: 0rem;
+        padding: 0vh 8vw 12vh;
+    }
+
     #Service-1 .Content,
-    #Service-2 .Content {
+    #Service-2 .Content,
+    #Service-3 .Content {
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     }
 
     #Service-1 .Content h3,
-    #Service-2 .Content h3 {
+    #Service-2 .Content h3,
+    #Service-3 .Content h3 {
         padding-bottom: 2rem;
     }
 
     #Service-1 .Content p,
-    #Service-2 .Content p {
+    #Service-2 .Content p,
+    #Service-3 .Content p {
         width: 96%;
     }
 
     #Service-1 .Graphic,
-    #Service-2 .Graphic {
+    #Service-2 .Graphic,
+    #Service-3 .Graphic {
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     }
@@ -1099,6 +1134,13 @@ input::-webkit-input-placeholder {
     }
 
     #Service-2 .Content {
+        position: relative;
+        padding: 8vh 0rem;
+        margin-right: 0rem;
+        z-index: 16;
+    }
+
+    #Service-3 .Content {
         position: relative;
         padding: 8vh 0rem;
         margin-right: 0rem;
@@ -1614,14 +1656,54 @@ input::-webkit-input-placeholder {
 #UK {
     background-color: #111111;
     width: 100vw;
+    padding-top: 0vh;
+}
+
+#UK .top {
+    width: 100vw;
+    /*    height: 100vh;*/
+    background-image: url(../Assets/UK/Primary.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    /*    background-color: rgba(0, 0, 0, 0.6);*/
+    /*    mix-blend-mode: luminosity;*/
+    /*    background-blend-mode: luminosity;*/
+    /*    text-align: left;*/
 }
 
 #UK .Container {
     background-color: #111111;
     width: 100vw;
-    padding: 24vh 12vw 12vh;
+    padding: 20vh 12vw 12vh;
     text-align: center;
     margin: 0 auto;
+}
+
+#UK button {
+    border-color: #fffffe;
+    margin-bottom: 4rem;
+    position: absolute;
+    bottom: 16rem;
+    right: 24rem;
+}
+
+@media (max-width: 480px) {
+    #UK button {
+        position: relative;
+        left: 2rem;
+        bottom: 4rem;
+    }
+}
+
+#UK button a {
+    color: #fffffe;
 }
 
 #UK .Container h2 {
@@ -1636,6 +1718,10 @@ input::-webkit-input-placeholder {
 #UK .Container p {
     color: #fffffe;
     text-align: left;
+}
+
+#UK .courses p {
+    padding-bottom: 1rem !important;
 }
 
 #UK .Container p strong {
